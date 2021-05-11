@@ -525,7 +525,7 @@ a.text-black:focus,
 a.text-black.active {
   color: #000000 !important;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
   position: relative;
   background-image: transparent;
   background-size: 10000px 2px;
@@ -533,7 +533,7 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]) {
   background-position: 0px 1.2em;
   background-position: -10000px 1.2em;
 }
-a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):hover {
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption):hover {
   transition: background-position 2s ease-in-out;
   background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-position: 0px 1.2em;
@@ -1230,7 +1230,7 @@ a {
 }
 .cid-swNFzTfZgA {
   padding-top: 0rem;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-swNFzTfZgA img {
@@ -1245,6 +1245,31 @@ a {
 }
 @media (min-width: 992px) {
   .cid-swNFzTfZgA .card {
+    max-width: 12.5%;
+  }
+}
+.cid-sx56ou2sdm {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sx56ynZjFi {
+  padding-top: 0rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sx56ynZjFi img {
+  width: 120px;
+  margin: auto;
+}
+.cid-sx56ynZjFi .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-sx56ynZjFi .card {
     max-width: 12.5%;
   }
 }
@@ -1752,7 +1777,7 @@ a {
 }
 .cid-swNGmqLETv {
   padding-top: 0rem;
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-swNGmqLETv img {
@@ -1767,6 +1792,31 @@ a {
 }
 @media (min-width: 992px) {
   .cid-swNGmqLETv .card {
+    max-width: 12.5%;
+  }
+}
+.cid-sx5fuLbZw6 {
+  padding-top: 3rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+.cid-sx5fvCLOtv {
+  padding-top: 0rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
+}
+.cid-sx5fvCLOtv img {
+  width: 120px;
+  margin: auto;
+}
+.cid-sx5fvCLOtv .card {
+  transition: all 0.3s;
+  height: fit-content;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+@media (min-width: 992px) {
+  .cid-sx5fvCLOtv .card {
     max-width: 12.5%;
   }
 }
