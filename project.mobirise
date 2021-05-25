@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Best Places To Work",
-    "currentPage": "thongtinquatang.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -20,9 +20,9 @@
         "display5Font": "Montserrat",
         "display5Size": "1.4",
         "display7Font": "Noto Sans",
-        "display7Size": "0.8",
+        "display7Size": "1",
         "display4Font": "Montserrat",
-        "display4Size": "0.8",
+        "display4Size": "1",
         "isRoundedButtons": false,
         "isGhostButtonBorder": false,
         "underlinedLinks": false,
