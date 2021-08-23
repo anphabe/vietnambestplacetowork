@@ -73,7 +73,7 @@
     "witsec-white-label": true,
     "witsec-language": false,
     "uniqCompNum": 82,
-    "versionPublish": "5.2.6",
+    "versionPublish": "5.3.10",
     "screenshot": "screenshot.png",
     "global_footer_custom": "<script src=\"assets/al/al.min.js\"></script>",
     "global_header_custom": "<meta property=\"og:site_name\" content=\"vietnambestplacestowork.com\"/>\n<meta property=\"og:type\" content=\"website\"/>\n\n<meta name=\"twitter:card\" content=\"summary_large_image\"/>\n<meta name=\"twitter:image:src\" content=\"https://vietnambestplacestowork.com/assets/images/thongtinquatang-meta.jpg\">\n<meta property=\"og:image\" content=\"https://vietnambestplacestowork.com/assets/images/thongtinquatang-meta.jpg\">\n\n<meta name=\"og:description\" content=\"Bình chọn ngay, cơ hội nhận quà tặng hấp dẫn lên đến 800K!\">\n<meta name=\"og:title\" content=\"Khảo sát Nơi Làm Việc Tốt Nhất Việt Nam 2021 | Anphabe\">\n\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-NDHSN6W');</script>\n<script>\nfunction keep_url_query(){\n    var url = window.location.href;\n    var index = url.indexOf(\"?\");\n\n    if(index < 0) {\n        return;\n    }\n    var query = url.substring(index);\n    \n    (function(query) {\n    var atags = document.getElementsByTagName(\"a\"); \n    var i;\n    for (i = 0; i < atags.length; i++) {\n        atags[i].href = atags[i].href+query;  \n    //    atags[i].classList.add(\"d-inline-block\");\n    } \n        \n    })(query);\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n\n</script>\n",
@@ -85,7 +85,7 @@
         "main": true,
         "title": " Khảo sát Nơi Làm Việc Tốt Nhất Việt Nam 2021 I Anphabe",
         "meta_descr": "Bình chọn ngay, cơ hội nhận quà tặng hấp dẫn lên đến 800K!",
-        "header_custom": "",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"mruh954gyrjd7ccca3i08dzmxmuksh\" />",
         "footer_custom": "",
         "html_before": ""
       },
@@ -1136,7 +1136,7 @@
       "settings": {
         "title": "Thông tin quà tặng | Khảo sát Nơi Làm Việc Tốt Nhất Việt Nam 2021",
         "meta_descr": "Bình chọn ngay, cơ hội nhận quà tặng hấp dẫn lên đến 800K!",
-        "header_custom": "",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"mruh954gyrjd7ccca3i08dzmxmuksh\" />",
         "footer_custom": "",
         "html_before": "",
         "order": 1
