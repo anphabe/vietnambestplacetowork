@@ -759,12 +759,17 @@ a {
 .cid-t4bEbogkl1 .item-content {
   width: 90%;
   height: 50%;
-  left: 32px;
+  left: 30px;
   bottom: 122px;
   overflow: hidden;
   z-index: 2;
   position: absolute;
   background: #f4f2f2;
+}
+@media (min-width: 992px) {
+  .cid-t4bEbogkl1 .item-content {
+    left: 28px;
+  }
 }
 .cid-t4bEbogkl1 .caption-gift {
   font-size: 2.5rem;
