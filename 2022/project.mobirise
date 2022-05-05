@@ -199,7 +199,7 @@
               "@media (min-width: 992px)": {
                 "& when (@showButtons)": {
                   ".item-content": {
-                    "padding": "8rem 4rem 0rem"
+                    "padding": "5rem 4rem 0rem"
                   },
                   ".item-footer": {
                     "padding": "0 2rem 2rem"
@@ -288,6 +288,14 @@
             },
             ".btn": {
               "margin-left": "0"
+            },
+            "@media (max-width: 991px)": {
+              ".item-content": {
+                "top": "270px"
+              },
+              ".item-wrapper": {
+                "margin-bottom": "18rem"
+              }
             }
           },
           "_name": "gallery3",

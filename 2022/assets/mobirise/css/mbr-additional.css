@@ -723,7 +723,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-t4bEbogkl1 .item-wrapper .item-content {
-    padding: 8rem 4rem 0rem;
+    padding: 5rem 4rem 0rem;
   }
   .cid-t4bEbogkl1 .item-wrapper .item-footer {
     padding: 0 2rem 2rem;
@@ -796,6 +796,14 @@ a {
 }
 .cid-t4bEbogkl1 .btn {
   margin-left: 0;
+}
+@media (max-width: 991px) {
+  .cid-t4bEbogkl1 .item-content {
+    top: 270px;
+  }
+  .cid-t4bEbogkl1 .item-wrapper {
+    margin-bottom: 18rem;
+  }
 }
 .cid-svgZgNX5Wz {
   padding-top: 1rem;
