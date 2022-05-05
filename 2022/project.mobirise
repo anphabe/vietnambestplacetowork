@@ -267,16 +267,16 @@
               "line-height": "1.2"
             },
             ".background-item": {
-              "background-color": "#f1c8c7"
+              "background-color": "#c20205"
             },
             ".background-item-1": {
-              "background-color": "#badaea"
+              "background-color": "#6eb1cb"
             },
             ".background-item-2": {
-              "background-color": "#e4d6dd"
+              "background-color": "#fe6e48"
             },
             ".background-item-3": {
-              "background-color": "#ede2cc"
+              "background-color": "#bad94f"
             },
             ".background-item img, .background-item-1 img, .background-item-2 img, .background-item-3 img": {
               "height": "100%",
