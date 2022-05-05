@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Vietnam Best Places To Work",
-    "currentPage": "thongtinquatang.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -118,6 +118,10 @@
             ".btn": {
               "letter-spacing": "0.1rem",
               "padding": "1rem 2rem"
+            },
+            "@media (max-width: 768px)": {
+              "min-height": "52vh",
+              "background-position": "88% 50%"
             }
           },
           "_name": "header6",
@@ -213,9 +217,7 @@
               },
               "@media (max-width: 991px)": {
                 "& when (@showButtons)": {
-                  ".item-content": {
-                    "padding": "1rem 1rem 0"
-                  },
+                  ".item-content": {},
                   ".item-footer": {
                     "padding": "0 1rem 1rem"
                   }
@@ -225,6 +227,10 @@
                     "padding": "1rem"
                   }
                 }
+              },
+              "@media (max-width: 768px)": {
+                "padding": "2rem 1rem 0",
+                "height": "116%"
               },
               "width": "100%"
             },
@@ -260,8 +266,9 @@
               "z-index": "2",
               "position": "absolute",
               "background": "@cardsBg",
-              "@media (min-width: 992px)": {
-                "left": "28px"
+              "@media (max-width: 768px)": {
+                "left": "17px",
+                "height": "56%"
               }
             },
             ".caption-gift": {
@@ -290,7 +297,21 @@
               "z-index": "3"
             },
             ".btn": {
-              "margin-left": "0"
+              "margin-left": "10px"
+            },
+            "@media (max-width: 768px)": {
+              ".item-content": {
+                "width": "80%",
+                "left": "36px",
+                "bottom": "160px",
+                "padding": "2rem"
+              },
+              ".item-wrapper": {
+                "margin-bottom": "26rem",
+                "height": "124%",
+                "padding": "2rem 1rem 0"
+              },
+              "padding-top": "(@paddingTop * 0.5rem)"
             }
           },
           "_name": "gallery3",
@@ -444,6 +465,9 @@
             },
             ".mbr-fullscreen": {
               "min-height": "38vh!important"
+            },
+            "@media (max-width: 768px)": {
+              "background-position": "69% 50%"
             }
           },
           "_name": "header1",
