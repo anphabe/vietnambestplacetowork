@@ -254,8 +254,8 @@
             ".item-content": {
               "width": "90%",
               "height": "50%",
-              "top": "329px",
               "left": "32px",
+              "bottom": "122px",
               "overflow": "hidden",
               "z-index": "2",
               "position": "absolute",
@@ -288,14 +288,6 @@
             },
             ".btn": {
               "margin-left": "0"
-            },
-            "@media (max-width: 991px)": {
-              ".item-content": {
-                "top": "270px"
-              },
-              ".item-wrapper": {
-                "margin-bottom": "18rem"
-              }
             }
           },
           "_name": "gallery3",
