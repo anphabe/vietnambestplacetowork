@@ -1270,8 +1270,9 @@ a {
 }
 .cid-tkJ53KemPB img,
 .cid-tkJ53KemPB .item-img {
-  width: 100%;
-  padding: 0 2rem;
+  width: initial;
+  padding: 20px 20px 0 20px;
+  margin: 0 auto;
 }
 .cid-tkJ53KemPB .item:focus,
 .cid-tkJ53KemPB span:focus {
