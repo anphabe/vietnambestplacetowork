@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2",
-    "currentPage": "100-noi-lam-viec-tot-nhat-viet-nam-2021.html",
+    "currentPage": "100-noi-lam-viec-tot-nhat-viet-nam-2017.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -4070,6 +4070,9 @@
             },
             ".mbr-text, .link-wrap": {
               "color": "#ffffff"
+            },
+            ".display-2": {
+              "line-height": "1.5em"
             }
           },
           "_name": "info3",
@@ -9086,6 +9089,9 @@
             },
             ".mbr-text, .link-wrap": {
               "color": "#ffffff"
+            },
+            ".display-2": {
+              "line-height": "1.5em"
             }
           },
           "_name": "info3",
@@ -9922,6 +9928,9 @@
             },
             ".mbr-text, .link-wrap": {
               "color": "#ffffff"
+            },
+            ".display-2": {
+              "line-height": "1.5em"
             }
           },
           "_name": "info3",
@@ -10758,6 +10767,9 @@
             },
             ".mbr-text, .link-wrap": {
               "color": "#ffffff"
+            },
+            ".display-2": {
+              "line-height": "1.5em"
             }
           },
           "_name": "info3",
