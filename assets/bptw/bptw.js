@@ -3,18 +3,18 @@
     
     function rankingDisplayByJson2HTML(data) {
         let transforms = {
-            "list": {
-                "<>": "div", "class": "row row-cols-1 row-cols-sm-2 row-cols-md-3", "html": function () {
-                    return ($.json2html(data, transforms.list_items));
+            "grid": {
+                "<>": "div", "class": "row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5", "html": function () {
+                    return ($.json2html(data, transforms.grid_items));
                 }
             },
 
-            "list_items": {
-                "<>": "div", "class": "col ranking-item pb-4", "html": [
+            "grid_items": {
+                "<>": "div", "class": "col ranking-item p-0 m-0 border-0", "html": [
                     {
-                        "<>": "div", "class": "card h-100 bg-white mbr-text border border-1", "html": [
+                        "<>": "div", "class": "card h-100 bg-white mbr-text border border-0", "html": [
                             {
-                                "<>": "div", "class": "card-body display-7", "html": [
+                                "<>": "div", "class": "card-body", "html": [
                                     {
                                         "<>": "span",
                                         "style": "font-size: 16px; font-weight: 500; position: absolute;top: 0;left: 0;background: orange;display: inline-block;padding: 10px;border-radius: 0.25rem 0 0 0;color: white;",
@@ -49,10 +49,10 @@
                                     },
                                     {
                                         "<>": "h5",
-                                        "class": "card-title display-5",
+                                        "class": "card-title fs-6 text-center",
                                         "html": function () {
                                             if (this.portal_url.length > 0) {
-                                                return '<a class="black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
+                                                return '<a class="text-black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
                                             } else {
                                                 return this.name;
                                             }
@@ -60,7 +60,7 @@
                                     },
                                     {
                                         "<>": "p",
-                                        "class": "card-text text-dark display-7",
+                                        "class": "card-text text-dark display-7 d-none",
                                         "html": function () {
 
                                             if (this.description.length > 250) {
@@ -71,6 +71,66 @@
                                     }
                                 ]
                             }
+                        ]
+                    }
+                ]
+            },
+            "list": {
+                "<>": "div", "class": "row row-cols-1 row-cols-lg-2", "html": function () {
+                    return ($.json2html(data, transforms.list_items));
+                }
+            },
+
+            "list_items": {
+                "<>": "div", "class": "col ranking-item ", "html": [
+                    {
+                        "<>": "div", "class": "d-flex mbr-text text-center align-items-center  border-bottom p-2", "html": [
+                            
+                                
+                            {
+                                "<>": "div",
+                                "style": "width:80px; padding:12px 0; background: #d2e8f3",
+                                "class": function () {
+                                    if (this.ranking == 0) {
+                                        return "d-none";
+                                    } else {
+                                        return "rank-num fs-4 text-success flex-shrink-0";
+                                    }
+                                },
+                                "html": "#${ranking}"
+                            },
+                            {
+                                "<>": "a",
+                                "class": "px-4",
+                                "href": function () {
+                                    if (this.portal_url.length > 0) {
+                                        return this.portal_url;
+                                    } else {
+                                        return "#";
+                                    }
+                                },
+                                "html": [
+                                    {
+                                        "<>": "img",
+                                        "src": "${logo_link}",
+                                        "class": "mx-auto d-block",
+                                        "alt": "${name}",
+                                        "style": "width: initial",
+                                        "html": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "<>": "h5",
+                                "class": "px-4 fs-6 text-center",
+                                "html": function () {
+                                    if (this.portal_url.length > 0) {
+                                        return '<a class="text-black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
+                                    } else {
+                                        return this.name;
+                                    }
+                                }
+                            },
                         ]
                     }
                 ]
@@ -135,7 +195,7 @@
             }
         };
 
-        $("#vnbptw-ranking").empty().json2html({}, transforms.list);
+        $("#vnbptw-ranking").empty().json2html({}, transforms.grid);
 
         $("#ranking-filter").on("keyup", function () {
             let value = remove_vn_character($(this).val().toLowerCase());
@@ -146,11 +206,11 @@
         });
         $('#bptw-view-grid').click(function () {
             $("#ranking-filter").val("");
-            $("#vnbptw-ranking").empty().json2html({}, transforms.list);
+            $("#vnbptw-ranking").empty().json2html({}, transforms.grid);
         })
         $('#bptw-view-table').click(function () {
             $("#ranking-filter").val("");
-            $("#vnbptw-ranking").empty().json2html({}, transforms.table);
+            $("#vnbptw-ranking").empty().json2html({}, transforms.list);
         })
     }
     function getData(url) {
