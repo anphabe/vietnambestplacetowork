@@ -248,7 +248,7 @@
         });
 
         $('#select_year').change(function () {
-            let page = '100-noi-lam-viec-tot-nhat-viet-nam-' + $('#select_year').val() + '.html';
+            let page = 'top-100-noi-lam-viec-tot-nhat-viet-nam-' + $('#select_year').val() + '.html';
             window.location.href = page;
         });
     });
