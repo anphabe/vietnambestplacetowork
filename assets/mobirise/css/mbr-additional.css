@@ -13598,6 +13598,11 @@ a {
 }
 .cid-tvPfsOpR8l .btn {
   width: 100%;
+  font-size: 20px;
+  color: #000 !important;
+}
+.cid-tvPfsOpR8l .btn:hover {
+  color: #000 !important;
 }
 .cid-tvPfsOpR8l .mbr-section-btn {
   margin-bottom: 1.2rem;
@@ -13630,6 +13635,17 @@ a {
 }
 .cid-tvPfsOpR8l .invalid-feedback {
   font-size: 1rem;
+}
+.cid-tvPfsOpR8l .btn .mbr-iconfont-btn {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  color: #ffa800;
+  font-size: 15px !important;
+  font-weight: 700;
+  padding: 4px 0px 0px 2px;
+  background: black;
+  border-radius: 3px;
 }
 .cid-tvPf2rcnWK {
   padding-top: 5rem;
