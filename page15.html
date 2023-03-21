@@ -33,14 +33,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery-bundle.min.css" integrity="sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <link rel="stylesheet" href="assets/justified-gallery/justifiedGallery.min.css" />
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NDHSN6W');</script>
-<!-- End Google Tag Manager -->
-<meta name="facebook-domain-verification" content="mruh954gyrjd7ccca3i08dzmxmuksh" />
+
 <script>
 function keep_url_query(){
     let query = window.location.search;
@@ -60,6 +53,15 @@ function keep_url_query(){
         atags[i].href = new_url.toString();  
     } 
 
+    let elements = document.getElementById("destination"); 
+    for (i = 0; i < elements.length; i++) {
+        let new_url = new URL(elements[i].value);
+        for (const [key, value] of searchParams) {
+            new_url.searchParams.set(key, value);
+        }
+        elements[i].href = new_url.toString();  
+    } 
+
 }
 
 if (
@@ -71,6 +73,15 @@ if (
   document.addEventListener("DOMContentLoaded", keep_url_query);
 }
 </script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NDHSN6W');</script>
+<!-- End Google Tag Manager -->
+<meta name="facebook-domain-verification" content="mruh954gyrjd7ccca3i08dzmxmuksh" />
+
 <!-- PiwikTag Manager -->
 <script type="text/javascript">
 (function(window, document, dataLayerName, id) {
