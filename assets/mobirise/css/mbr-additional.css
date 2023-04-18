@@ -1290,14 +1290,9 @@ a {
   border-radius: 3px;
 }
 .cid-tkJ53KemPB {
-  padding-top: 1rem;
+  padding-top: 5rem;
   padding-bottom: 6rem;
-  background-image: url("../../../assets/images/bg-giaithuong.png");
-}
-@media (min-width: 991px) {
-  .cid-tkJ53KemPB {
-    background-position-y: 200px;
-  }
+  background-color: #093d5a;
 }
 .cid-tkJ53KemPB img,
 .cid-tkJ53KemPB .item-img {
@@ -1318,7 +1313,7 @@ a {
 .cid-tkJ53KemPB .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #093d5a;
+  background: #ffffff;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -1337,17 +1332,17 @@ a {
   margin-top: auto !important;
 }
 .cid-tkJ53KemPB .mbr-section-title {
-  color: #545353;
+  color: #ffffff;
 }
 .cid-tkJ53KemPB .mbr-text,
 .cid-tkJ53KemPB .mbr-section-btn {
   text-align: center;
-  color: #ffffff;
+  color: #232323;
   font-size: 18px;
 }
 .cid-tkJ53KemPB .item-title {
   text-align: center;
-  color: #ffffff;
+  color: #232323;
   text-transform: uppercase;
   font-size: 22px;
 }
