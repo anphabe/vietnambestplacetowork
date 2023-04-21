@@ -440,24 +440,42 @@ Email:&nbsp;<a href="mailto:clientsolution@anphabe.com" class="text-secondary">c
 
   <script src="https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js"></script>
 <script type="text/javascript">
-    /** This section is only needed once per page if manually copying **/
-    if (typeof MauticSDKLoaded == 'undefined') {
-        var MauticSDKLoaded = true;
-        var head            = document.getElementsByTagName('head')[0];
-        var script          = document.createElement('script');
-        script.type         = 'text/javascript';
-        script.src          = 'https://mau.anphabe-update.com/media/js/mautic-form.js?vcb22bd8a';
-        script.onload       = function() {
-            MauticSDK.onLoad();
-        };
-        head.appendChild(script);
-        var MauticDomain = 'https://mau.anphabe-update.com';
-        var MauticLang   = {
-            'submittingMessage': "Please wait..."
-        }
-    }else if (typeof MauticSDK != 'undefined') {
-        MauticSDK.onLoad();
-    }
+
+
+
+
+    $(document).ready(function () {
+       
+       $("#mauticform_leadform").submit(function (e) {
+           if (!this.checkValidity()) {
+               e.preventDefault();
+               e.stopPropagation();
+           }
+           else{
+               
+               var formData = new FormData(this);
+              
+               $.ajax({
+                   type: "POST",
+                   url: "https://mau.anphabe-update.com/form/submit?formId=1",
+                   data: formData,
+                   processData: false,
+                   contentType: false,
+                   cache: false,
+                   success: function (data) {
+                       console.log(data);
+                   },
+                   error: function (error) {
+                   }
+               });
+               
+           }
+           return false;
+       });
+
+      
+
+   }); // end function document ready
 </script>
 </body>
 </html>
