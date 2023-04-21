@@ -301,7 +301,7 @@ Email:&nbsp;<a href="mailto:clientsolution@anphabe.com" class="text-secondary">c
         </div>
 
         <input type="hidden" name="mauticform[formId]" id="mauticform_leadform_id" value="1">
-        <input type="hidden" name="mauticform[return]" id="mauticform_leadform_return" value="">
+        <input type="hidden" name="mauticform[return]" id="mauticform_leadform_return" value="1">
         <input type="hidden" name="mauticform[formName]" id="mauticform_leadform_name" value="leadform">
 
         </form>
@@ -454,6 +454,7 @@ Email:&nbsp;<a href="mailto:clientsolution@anphabe.com" class="text-secondary">c
            else{
                
                var formData = new FormData(this);
+               formData.append('mauticform[messenger]', 1);
               
                $.ajax({
                    type: "POST",
