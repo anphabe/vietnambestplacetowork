@@ -1742,6 +1742,9 @@ a {
   list-style: circle!important;
   margin-left: -25px;
 }
+.cid-tCH3vCJQfc ol.text-list {
+  padding-left: 25px;
+}
 .cid-tCGHfSHTH6 {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -1762,6 +1765,10 @@ a {
 }
 .cid-tCGHfSHTH6 .row {
   flex-direction: row-reverse;
+}
+.cid-tCGHfSHTH6 ul {
+  margin-left: 0;
+  padding-left: 17px;
 }
 .cid-tCGHgrWxPJ {
   padding-top: 0rem;
@@ -1785,6 +1792,10 @@ a {
   .cid-tCGHgrWxPJ {
     padding-top: 0rem;
   }
+}
+.cid-tCGHgrWxPJ ul {
+  margin-left: 0;
+  padding-left: 17px;
 }
 .cid-tCGMZynFfS {
   padding-top: 4rem;
@@ -1814,6 +1825,9 @@ a {
 .cid-tCGMZynFfS ol.text-list li {
   list-style: circle!important;
   margin-left: -25px;
+}
+.cid-tCGMZynFfS ol.text-list {
+  padding-left: 25px;
 }
 .cid-tCGmEn8M47 {
   padding-top: 5rem;
