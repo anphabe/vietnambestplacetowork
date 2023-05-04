@@ -80,7 +80,9 @@
     "gdpr": false,
     "witsec-jquery": "3.5.1",
     "witsec-white-label": true,
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
