@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Khảo sát dành cho người đi làm",
-    "currentPage": "thongtinquatang.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -16,13 +16,13 @@
         "display1Font": "Questrial",
         "display1Size": 4.6,
         "display2Font": "Questrial",
-        "display2Size": 3,
+        "display2Size": "2.2",
         "display5Font": "Mulish",
-        "display5Size": "1.8",
+        "display5Size": "1.4",
         "display7Font": "Mulish",
-        "display7Size": 1.2,
+        "display7Size": "1",
         "display4Font": "Mulish",
-        "display4Size": "1.2",
+        "display4Size": "1",
         "isRoundedButtons": false,
         "isGhostButtonBorder": true,
         "underlinedLinks": false,
@@ -733,7 +733,7 @@
               }
             },
             ".caption-gift": {
-              "font-size": "2.5rem",
+              "font-size": "2rem",
               "font-weight": "500",
               "line-height": "1.2"
             },
