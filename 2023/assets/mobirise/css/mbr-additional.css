@@ -1071,6 +1071,11 @@ a {
 .cid-tCvall3VcL {
   background-image: url("../../../assets/images/bg-cover-homepage-1.jpg");
 }
+@media (max-width: 768px) {
+  .cid-tCvall3VcL {
+    min-height: 49vh;
+  }
+}
 .cid-tCvall3VcL .mbr-fallback-image.disabled {
   display: none;
 }
@@ -1246,7 +1251,10 @@ a {
   .cid-tCCri7iZIm .item-wrapper {
     margin-bottom: 26rem;
     height: 124%;
-    padding: 2rem 1rem 0;
+    padding: 0rem 1rem 0;
+  }
+  .cid-tCCri7iZIm .caption-gift {
+    font-size: 2rem;
   }
 }
 .cid-tCGhtojEvr {
@@ -1375,6 +1383,9 @@ a {
     height: 124%;
     padding: 2rem 1rem 0;
   }
+  .cid-tCGhtojEvr .caption-gift {
+    font-size: 2rem;
+  }
 }
 .cid-tCCCgy7H2M {
   padding-top: 4rem;
@@ -1422,6 +1433,15 @@ a {
 }
 .cid-tCCCgy7H2M .mbr-section-title {
   color: #ffffff;
+}
+@media (max-width: 768px) {
+  .cid-tCCCgy7H2M .card-wrapper {
+    margin-top: 1rem;
+  }
+  .cid-tCCCgy7H2M .card-box {
+    min-height: 400px;
+    padding: 2rem;
+  }
 }
 .cid-tCCHpURIIZ {
   padding-top: 5rem;
