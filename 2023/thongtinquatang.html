@@ -29,11 +29,59 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  
+  <script>
+function keep_url_query(){
+    let query = window.location.search;
+    
+    if(query == "") {
+        return false;
+    }
+    let searchParams = new URLSearchParams(query);
+
+    let atags = document.getElementsByTagName("a"); 
+    let i;
+    for (i = 0; i < atags.length; i++) {
+        let new_url = new URL(atags[i].href);
+        for (const [key, value] of searchParams) {
+            new_url.searchParams.set(key, value);
+        }
+        atags[i].href = new_url.toString();  
+    } 
+
+    let elements = document.getElementById("destination"); 
+    for (i = 0; i < elements.length; i++) {
+        let new_url = new URL(elements[i].value);
+        for (const [key, value] of searchParams) {
+            new_url.searchParams.set(key, value);
+        }
+        elements[i].href = new_url.toString();  
+    } 
+
+}
+
+if (
+    document.readyState === "complete" ||
+    (document.readyState !== "loading" && !document.documentElement.doScroll)
+) {
+  keep_url_query();
+} else {
+  document.addEventListener("DOMContentLoaded", keep_url_query);
+}
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://tr.anphabe.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NDHSN6W');</script>
+<!-- End Google Tag Manager -->
   
 </head>
 <body>
-  
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://tr.anphabe.com/ns.html?id=GTM-NDHSN6W"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <section data-bs-version="5.1" class="menu menu2 cid-tCH0Pgv80I" once="menu" id="menu2-svhgh7m769-svhgh7m769-svhgh7m769-svhgh7m769-svhgh7m769-svhgh7m769-svhgh7m769-svhgh7m769-svhgh7m769-1c">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
@@ -198,7 +246,7 @@
                 <ol>
                     <li class="mbr-text mbr-fonts-style mb-3 display-7"><strong>THỂ LỆ</strong></li>
                     <ol class="text-list">
-                        <li class="mbr-text mbr-fonts-style mb-3 display-7">Chương trình <strong>RÚT THĂM MAY MẮN</strong> dành cho tất cả đáp viên hoàn tất khảo sát hợp lệ trong thời gian diễn ra chương trình khảo sát bình chọn <strong>“NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023”</strong>.</li>
+                        <li class="mbr-text mbr-fonts-style mb-3 display-7">Chương trình <strong>RÚT THĂM MAY MẮN</strong> dành cho tất cả đáp viên hoàn tất khảo sát hợp lệ trong thời gian diễn ra chương trình khảo sát bình chọn <strong>“NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023<sup>®</sup>”</strong>.</li>
                         <li class="mbr-text mbr-fonts-style mb-3 display-7">Với mỗi tài khoản email khảo sát hợp lệ, đáp viên sẽ có thêm cơ hội nhận quà may mắn từ chương trình thông qua hình thức lựa chọn ngẫu nhiên từ hệ thống.</li>
                         <li class="mbr-text mbr-fonts-style mb-3 display-7">Kết quả sẽ được công khai minh bạch trên <a href="https://www.facebook.com/vietnam100bestplacestowork" target="_blank" class="text-info"><strong>Fanpage của Nơi Làm Việc Tốt Nhất Việt Nam</strong></a> và gửi thông báo về email đã đăng ký của đáp viên khi tham gia khảo sát.</li>
                         <li class="mbr-text mbr-fonts-style mb-3 display-7">Đáp viên may mắn vui lòng xác nhận thông tin nhận quà qua email trong vòng <strong>07 (bảy)</strong> ngày làm việc kể từ khi nhận thông báo trúng thưởng của Ban tổ chức để tiến hành thủ tục nhận thưởng.</li>
