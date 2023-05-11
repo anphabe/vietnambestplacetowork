@@ -1,0 +1,29 @@
+.ranking-item .card:nth-child(2n+1) {
+    background-color: rgb(179, 176, 176);
+}
+
+.header-title .btn {
+    font-size: 20px;
+    color: #000 !important;
+}  
+.header-title .btn:hover {
+      color: #000 !important;
+    
+}
+  
+.header-title .btn .mbr-iconfont-btn {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    color: #ffa800;
+    font-size: 15px !important;
+    font-weight: 700;
+    padding: 4px 0px 0px 2px;
+    background: black;
+    border-radius: 3px;
+}
+  
+.header-title .btn .logo-award {
+  width: initial;
+  margin: 0 auto;
+}
