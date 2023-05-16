@@ -126,8 +126,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div> <a class="nav-link link text-secondary display-7" href="mailto:clientsolution@anphabe.com"><span class="mbr-iconfont socicon-mail socicon" style="color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 13px;"></span><span class="d-none d-lg-inline-block">clientsolution@anphabe.com</span></a> </div> 
                       <div><a class="nav-link link text-secondary display-7" href="tel:+842862682222"><span class="mbr-iconfont mobi-mbri-phone mobi-mbri" style="font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);"></span><span class="d-none d-lg-inline-block">(+84) 28 6268 2222</span></a></div>
                   
-                    <div class="d-none d-md-inline-block navbar-buttons mbr-section-btn"><a class="btn btn-warning display-4" href="lien-he.html"><span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn" style="font-size: 12px;"></span>
-                            <span>ĐĂNG KÝ NGAY<span> </span></span></a></div>
+                    <div class="d-none d-md-inline-block navbar-buttons mbr-section-btn"><a class="btn btn-warning display-4" href="https://vietnambestplacestowork.com/2023/?utm_source=homepage"><span class="mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn" style="font-size: 12px;"></span>
+                            <span>BÌNH CHỌN NGAY</span></a></div>
               </div>
           </div>      
         </div>             
@@ -158,7 +158,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </section>
 
-<section data-bs-version="5.1" class="form1 cid-tBRYiV1XnF mbr-fullscreen mbr-parallax-background" id="form1-4k" data-rv-view="481">
+<section data-bs-version="5.1" class="form1 cid-tBRYiV1XnF mbr-fullscreen mbr-parallax-background" id="form1-4k" data-rv-view="754">
 
     
 
@@ -301,7 +301,7 @@ Email:&nbsp;<a href="mailto:clientsolution@anphabe.com" class="text-secondary">c
         </div>
 
         <input type="hidden" name="mauticform[formId]" id="mauticform_leadform_id" value="1">
-        <input type="hidden" name="mauticform[return]" id="mauticform_leadform_return" value="1">
+        <input type="hidden" name="mauticform[return]" id="mauticform_leadform_return" value="">
         <input type="hidden" name="mauticform[formName]" id="mauticform_leadform_name" value="leadform">
 
         </form>
@@ -440,43 +440,24 @@ Email:&nbsp;<a href="mailto:clientsolution@anphabe.com" class="text-secondary">c
 
   <script src="https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js"></script>
 <script type="text/javascript">
-
-
-
-
-    $(document).ready(function () {
-       
-       $("#mauticform_leadform").submit(function (e) {
-           if (!this.checkValidity()) {
-               e.preventDefault();
-               e.stopPropagation();
-           }
-           else{
-               
-               var formData = new FormData(this);
-               formData.append('mauticform[messenger]', 1);
-              
-               $.ajax({
-                   type: "POST",
-                   url: "https://mau.anphabe-update.com/form/submit?formId=1",
-                   data: formData,
-                   processData: false,
-                   contentType: false,
-                   cache: false,
-                   success: function (data) {
-                       console.log(data);
-                   },
-                   error: function (error) {
-                   }
-               });
-               
-           }
-           return false;
-       });
-
-      
-
-   }); // end function document ready
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://mau.anphabe-update.com/media/js/mautic-form.js?vcb22bd8a';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://mau.anphabe-update.com';
+        var MauticLang   = {
+            'submittingMessage': "Please wait..."
+        }
+    }else if (typeof MauticSDK != 'undefined') {
+        MauticSDK.onLoad();
+    }
 </script>
 </body>
 </html>
