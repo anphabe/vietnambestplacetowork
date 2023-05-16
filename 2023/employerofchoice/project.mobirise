@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Khảo sát dành cho sinh viên",
-    "currentPage": "thongtinquatang.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -88,7 +88,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Khảo sát dành cho sinh viên",
+        "title": "Thương Hiệu Nhà Tuyển Dụng Hấp Dẫn Nhất Với Sinh Viên Việt Nam",
         "meta_descr": "Chỉ 10 phút thực hiện khảo sát, sinh viên có cơ hội chia sẻ tiếng nói và quan điểm của mình về định hướng công việc và môi trường làm việc yêu thích, giúp nhà tuyển dụng hiểu hơn về đội ngũ nhân lực trẻ.",
         "header_custom": "",
         "footer_custom": "",
