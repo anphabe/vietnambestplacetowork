@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Khảo sát dành cho sinh viên",
-    "currentPage": "index.html",
+    "currentPage": "thongtinquatang.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -93,7 +93,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "socialSharingUrl": "https://vietnambestplacestowork.com/2023/employerofchoice/assets/images/logo-eoc-2023.jpg"
+        "socialSharingUrl": "https://vietnambestplacestowork.com/2023/employerofchoice/assets/images/eoc-social.jpg"
       },
       "components": [
         {
@@ -1503,7 +1503,7 @@
         "footer_custom": "",
         "html_before": "",
         "order": "1",
-        "socialSharingUrl": "https://vietnambestplacestowork.com/2023/employerofchoice/assets/images/logo-eoc-2023.jpg"
+        "socialSharingUrl": "https://vietnambestplacestowork.com/2023/employerofchoice/assets/images/eoc-social.jpg"
       },
       "components": [
         {
