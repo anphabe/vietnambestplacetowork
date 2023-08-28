@@ -16732,22 +16732,3 @@ a {
 .cid-tOcf1ZTTDc .text-info {
   color: #000000;
 }
-
-@media (min-width: 992px) {
-.imgtflex {
-    margin-left: 4rem;
-    margin-right: 4rem;
-}
-}
-
-@media (min-width: 1200px) {
-.imgtflex {
-    margin-left: 6rem;
-    margin-right: 6rem;
-}
-}
-@media (min-width: 992px) {
-.cid-tNQGNHH3Hd .text-wrapper {
-    padding: 0 2rem;
-}
-}
