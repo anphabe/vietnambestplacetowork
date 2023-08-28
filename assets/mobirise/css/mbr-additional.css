@@ -15709,7 +15709,7 @@ a {
 }
 .cid-tNQF5Qtyah {
   padding-top: 3rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
 .cid-tNQF5Qtyah .mbr-fallback-image.disabled {
@@ -15726,6 +15726,13 @@ a {
 }
 .cid-tNQF5Qtyah .mbr-section-title {
   text-align: left;
+}
+.cid-tNQF5Qtyah .mbr-section-subtitle {
+  text-align: left;
+}
+.cid-tNQF5Qtyah .btm-line {
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 1rem;
 }
 .cid-tNQvahcjDJ {
   padding-top: 0rem;
