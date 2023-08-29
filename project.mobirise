@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2",
-    "currentPage": "dien-hinh-mcdonalds.html",
+    "currentPage": "diem-nhan.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -19241,7 +19241,7 @@
         }
       ]
     },
-    "dien-hinh-mcdonalds.html": {
+    "diem-nhan-mcdonalds.html": {
       "settings": {
         "title": "Bật mí về văn hóa môi trường làm việc hạnh phúc tại McDonald's Việt Nam",
         "order": "1",
@@ -20510,9 +20510,9 @@
         }
       ]
     },
-    "dien-hinh.html": {
+    "diem-nhan.html": {
       "settings": {
-        "title": "Điển hình Anphabe",
+        "title": "Điểm nhấn Anphabe",
         "order": "2",
         "meta_descr": "Tìm hiểu khám phá các điển hình doanh nghiệp có văn hóa môi trường làm việc và chiến lược quản trị nhân tài xuất sắc thú vị tại Việt Nam - Độc quyền từ Anphabe - Nhà tư vấn Tiên phong về Thương hiệu Nhà tuyển dụng & Môi trường làm việc Hạnh Phúc",
         "socialSharingUrl": ""
