@@ -18856,6 +18856,9 @@ a {
 .cid-tWdkxREepx .ranking-item:nth-child(even) .card {
   background-color: #ededed !important;
 }
+.cid-tWdkxREepx .ranking-position {
+  display: none;
+}
 .cid-tWdkxSeRJN {
   padding-top: 5rem;
   padding-bottom: 4rem;
@@ -19526,6 +19529,9 @@ a {
 }
 .cid-tWdoj0R6Mj .ranking-item:nth-child(even) .card {
   background-color: #ededed !important;
+}
+.cid-tWdoj0R6Mj .ranking-position {
+  display: none;
 }
 .cid-tWdoj18BiI {
   padding-top: 5rem;

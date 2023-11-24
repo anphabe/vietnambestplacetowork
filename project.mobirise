@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2023",
-    "currentPage": "top-50-thuong-hieu-nha-tuyen-dung-hap-dan-voi-sinh-vien-viet-nam-2023.html",
+    "currentPage": "top15-haw-2023-sme.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -24181,6 +24181,9 @@
             },
             ".ranking-item:nth-child(even) .card": {
               "background-color": "#ededed !important"
+            },
+            ".ranking-position": {
+              "display": "none"
             }
           },
           "_name": "witsec-html-block",
@@ -25040,6 +25043,9 @@
             },
             ".ranking-item:nth-child(even) .card": {
               "background-color": "#ededed !important"
+            },
+            ".ranking-position": {
+              "display": "none"
             }
           },
           "_name": "witsec-html-block",
