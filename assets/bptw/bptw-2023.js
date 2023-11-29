@@ -157,10 +157,10 @@
         
                 top1[0].logo_link = top1[0].logo_link.replace('rectMedium','rectLarge');
         
-                top10.sort(function(a,b) {return a.name.localeCompare(b.name);});
-                top20.sort(function(a,b) {return a.name.localeCompare(b.name);});
-                top50.sort(function(a,b) {return a.name.localeCompare(b.name);});
-                top100.sort(function(a,b) {return a.name.localeCompare(b.name);});
+                top10.sort(function(a,b) {return a.sortname.localeCompare(b.sortname);});
+                top20.sort(function(a,b) {return a.sortname.localeCompare(b.sortname);});
+                top50.sort(function(a,b) {return a.sortname.localeCompare(b.sortname);});
+                top100.sort(function(a,b) {return a.sortname.localeCompare(b.sortname);});
             // console.log(top10, a);
                 
                 $("#vnbptw-ranking-top1").empty().json2html({'companies':top1}, template.grid);
@@ -170,7 +170,7 @@
                 $("#vnbptw-ranking-top100").empty().json2html({'companies':top100}, template.grid);
             }
             else {
-                data.sort(function(a,b) {return a.name.localeCompare(b.name,'en');});
+                data.sort(function(a,b) {return a.sortname.localeCompare(b.sortname,'en');});
                 $("#vnbptw-ranking").empty().json2html({'companies':data}, template.grid);
             }
         }
