@@ -143,12 +143,21 @@
     function rankingDisplayByJson2HTML(data) {
         $('.loading-data').hide();
 
-        
-        // if 2023
-        if($('#select_year').val() == 2023) {
-            if( $('#award').val() == 'top100'  || $('#award').val() == 'top100sme' ) {
 
-                console.log("debug", data);
+
+        // if 2023
+        
+        let industry = $('#select_industry').val();
+        
+
+        console.log("debug", data, industry);
+        if($('#select_year').val() == 2023) {
+
+            if( ($('#award').val() == 'top100'  || $('#award').val() == 'top100sme' ) && !industry) {
+
+                $('.vnbptw-ranking-top').show();
+                $('.vnbptw-ranking-industry').hide();
+
                 let top1 = data.slice(0,1);
                 let top10 = data.slice(1,10);
                 let top20 = data.slice(10,20);
@@ -170,6 +179,8 @@
                 $("#vnbptw-ranking-top100").empty().json2html({'companies':top100}, template.grid);
             }
             else {
+                $('.vnbptw-ranking-top').hide();
+                $('.vnbptw-ranking-industry').show();
                 data.sort(function(a,b) {return a.sortname.localeCompare(b.sortname,'en');});
                 $("#vnbptw-ranking").empty().json2html({'companies':data}, template.grid);
             }
