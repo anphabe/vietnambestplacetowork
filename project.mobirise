@@ -66,7 +66,9 @@
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-NDHSN6W\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "usedWebp": false,
     "witsec-language": false,
-    "witsec-anphabe": false
+    "witsec-anphabe": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@/en"
   },
   "pages": {
     "index.html": {
@@ -25921,7 +25923,7 @@
         }
       ]
     },
-    "en.html": {
+    "inde.html": {
       "settings": {
         "title": "Nơi làm việc tốt nhất Việt Nam english | Anphabe",
         "meta_descr": "Giải thưởng môi trường làm việc danh giá nhất được tổ chức thường niên bởi Anphabe - Nhà tư vấn Tiên phong về Thương hiệu Nhà tuyển dụng & Môi trường làm việc Hạnh Phúc.",
