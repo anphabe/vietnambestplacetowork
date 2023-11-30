@@ -181,7 +181,7 @@
             else {
                 $('.vnbptw-ranking-top').hide();
                 $('.vnbptw-ranking-industry').show();
-                data.sort(function(a,b) {return a.sortname.localeCompare(b.sortname,'en');});
+               // data.sort(function(a,b) {return a.ranking.localeCompare(b.ranking,'en');});
                 $("#vnbptw-ranking").empty().json2html({'companies':data}, template.grid);
             }
         }
