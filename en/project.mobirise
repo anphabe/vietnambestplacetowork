@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2023",
-    "currentPage": "index.html",
+    "currentPage": "inde.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -65,7 +65,9 @@
     "global_footer_custom": "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/json2html/2.2.2/json2html.min.js\" integrity=\"sha512-LYBxdtbgyLlB9aFozpSH9IpPpP+7t+tRoBG7VhLJ2APxcstLkyMI78qCaLwoIEQwKzbdS0VdK9o3ps4q6NT1cQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n  \n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.umd.min.js\" integrity=\"sha512-6vFONv+JJD01XArGGqxABRY3Vsm8tKuemThmZYfha9inGIuqPU5OgZP1QizBf0Y3JGPnrofy3jokdebgYNNhEQ==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/thumbnail/lg-thumbnail.umd.min.js\" integrity=\"sha512-hdzLQVAURjMzysJVkWaKWA2nD+V6CcBx6wH0aWytFnlmgIdTx/n5rDWoruSvK6ghnPaeIgwKuUESlpUhat2X+Q==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\"></script>\n<script src=\"assets/justified-gallery/jquery.justifiedGallery.min.js\"></script>\n<script src=\"assets/bptw/bptw-2023.js\"></script>\n<script>\n      jQuery(\"#bptw-gallery\")\n  .justifiedGallery({\n    captions: false,\n    lastRow: \"hide\",\n    maxRowsCount: 2,\n   rowHeight: 200,\n    margins: 5\n  })\n  .on(\"jg.complete\", function () {\n    window.lightGallery(\n      document.getElementById(\"bptw-gallery\"),\n      {\n        thumbnail: true,\n        download: false,\n        pager: false,\n        plugins: [lgThumbnail],\n        mobileSettings: {\n          controls: true,\n          showCloseIcon: true,\n          download: false,\n          rotate: false\n        }\n      }\n    );\n  });\n\n\n</script>\n",
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-NDHSN6W\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "usedWebp": false,
-    "witsec-anphabe": false
+    "witsec-anphabe": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "inde.html": {
