@@ -2595,7 +2595,7 @@ a {
   border-radius: 3px;
 }
 .cid-tXxpNom7rT {
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
@@ -2614,27 +2614,26 @@ a {
 .cid-tXxpNom7rT .mbr-section-title {
   text-align: left;
 }
-.cid-tOchd5ykVb {
+.cid-tXxTsWucuf {
   padding-top: 0rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-tOchd5ykVb img,
-.cid-tOchd5ykVb .item-img {
-  width: 100%;
+.cid-tXxTsWucuf img,
+.cid-tXxTsWucuf .item-img {
   height: 100%;
-  height: 400px;
+  height: 200px;
   object-fit: cover;
 }
-.cid-tOchd5ykVb .item:focus,
-.cid-tOchd5ykVb span:focus {
+.cid-tXxTsWucuf .item:focus,
+.cid-tXxTsWucuf span:focus {
   outline: none;
 }
-.cid-tOchd5ykVb .item {
+.cid-tXxTsWucuf .item {
   cursor: pointer;
   margin-bottom: 2rem;
 }
-.cid-tOchd5ykVb .item-wrapper {
+.cid-tXxTsWucuf .item-wrapper {
   position: relative;
   border-radius: 4px;
   background: #fafafa;
@@ -2643,30 +2642,36 @@ a {
   flex-flow: column nowrap;
 }
 @media (min-width: 992px) {
-  .cid-tOchd5ykVb .item-wrapper .item-content {
-    padding: 2rem;
+  .cid-tXxTsWucuf .item-wrapper .item-content {
+    padding: 2rem 2rem 0;
+  }
+  .cid-tXxTsWucuf .item-wrapper .item-footer {
+    padding: 0 2rem 2rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-tOchd5ykVb .item-wrapper .item-content {
-    padding: 1rem;
+  .cid-tXxTsWucuf .item-wrapper .item-content {
+    padding: 1rem 1rem 0;
+  }
+  .cid-tXxTsWucuf .item-wrapper .item-footer {
+    padding: 0 1rem 1rem;
   }
 }
-.cid-tOchd5ykVb .mbr-section-btn {
+.cid-tXxTsWucuf .mbr-section-btn {
   margin-top: auto !important;
 }
-.cid-tOchd5ykVb .mbr-section-title {
+.cid-tXxTsWucuf .mbr-section-title {
   color: #232323;
 }
-.cid-tOchd5ykVb .mbr-text,
-.cid-tOchd5ykVb .mbr-section-btn {
+.cid-tXxTsWucuf .mbr-text,
+.cid-tXxTsWucuf .mbr-section-btn {
   text-align: left;
 }
-.cid-tOchd5ykVb .item-title {
+.cid-tXxTsWucuf .item-title {
   text-align: left;
   color: #ffa800;
 }
-.cid-tOchd5ykVb .item-subtitle {
+.cid-tXxTsWucuf .item-subtitle {
   text-align: left;
   color: #232323;
 }
