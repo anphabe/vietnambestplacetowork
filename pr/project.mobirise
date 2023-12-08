@@ -66,9 +66,7 @@
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-NDHSN6W\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "usedWebp": false,
     "witsec-language": false,
-    "witsec-anphabe": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-anphabe": false
   },
   "pages": {
     "dien-hinh-jolibee.html": {
@@ -2249,7 +2247,7 @@
     },
     "index.html": {
       "settings": {
-        "title": "Điểm nhấn Anphabe",
+        "title": "Góc báo chí - Anphabe",
         "order": "1",
         "meta_descr": "Tìm hiểu khám phá các điển hình doanh nghiệp có văn hóa môi trường làm việc và chiến lược quản trị nhân tài xuất sắc thú vị tại Việt Nam - Độc quyền từ Anphabe - Nhà tư vấn Tiên phong về Thương hiệu Nhà tuyển dụng & Môi trường làm việc Hạnh Phúc",
         "socialSharingUrl": ""
