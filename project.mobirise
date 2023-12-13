@@ -58,7 +58,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "witsec-white-label": true,
-    "uniqCompNum": 335,
+    "uniqCompNum": 348,
     "versionPublish": "5.9.0",
     "screenshot": "screenshot.png",
     "global_header_custom": "<meta name=\"content_group\" content=\"VNBPTW\" />\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery-bundle.min.css\" integrity=\"sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n<link rel=\"stylesheet\" href=\"assets/justified-gallery/justifiedGallery.min.css\" />\n\n<script>\nfunction keep_url_query(){\n    let query = window.location.search;\n    \n    if(query == \"\") {\n        return false;\n    }\n    let searchParams = new URLSearchParams(query);\n\n    let atags = document.getElementsByTagName(\"a\"); \n    let i;\n    for (i = 0; i < atags.length; i++) {\n        let new_url = new URL(atags[i].href);\n        for (const [key, value] of searchParams) {\n            new_url.searchParams.set(key, value);\n        }\n        atags[i].href = new_url.toString();  \n    } \n\n    let elements = document.getElementById(\"destination\"); \n    for (i = 0; i < elements.length; i++) {\n        let new_url = new URL(elements[i].value);\n        for (const [key, value] of searchParams) {\n            new_url.searchParams.set(key, value);\n        }\n        elements[i].href = new_url.toString();  \n    } \n\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n</script>\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://tr.anphabe.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-NDHSN6W');</script>\n<!-- End Google Tag Manager -->\n<meta name=\"facebook-domain-verification\" content=\"mruh954gyrjd7ccca3i08dzmxmuksh\" />\n\n<!-- PiwikTag Manager -->\n<script type=\"text/javascript\">\n(function(window, document, dataLayerName, id) {\nwindow[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:\"stg.start\"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');\nfunction stgCreateCookie(a,b,c){var d=\"\";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=\"; expires=\"+e.toUTCString()}document.cookie=a+\"=\"+b+d+\"; path=/\"}\nvar isStgDebug=(window.location.href.match(\"stg_debug\")||document.cookie.match(\"stg_debug\"))&&!window.location.href.match(\"stg_disable_debug\");stgCreateCookie(\"stg_debug\",isStgDebug?1:\"\",isStgDebug?14:-1);\nvar qP=[];dataLayerName!==\"dataLayer\"&&qP.push(\"data_layer_name=\"+dataLayerName),isStgDebug&&qP.push(\"stg_debug\");var qPString=qP.length>0?(\"?\"+qP.join(\"&\")):\"\";\ntags.async=!0,tags.src=\"https://anphabe.containers.piwik.pro/\"+id+\".js\"+qPString,scripts.parentNode.insertBefore(tags,scripts);\n!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);\"string\"==typeof a[0]&&window[dataLayerName].push({event:n+\".\"+i+\":\"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,\"ppms\",[\"tm\",\"cm\"]);\n})(window, document, 'dataLayer', 'c350782e-93f4-4aea-b396-51aa1ba03f8c');\n</script>",
@@ -66,9 +66,7 @@
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-NDHSN6W\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "usedWebp": false,
     "witsec-language": false,
-    "witsec-anphabe": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-anphabe": false
   },
   "pages": {
     "index.html": {
@@ -2702,7 +2700,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "19",
+        "order": "20",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/haw-2021-700.jpg"
       },
       "components": [
@@ -3542,7 +3540,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "18",
+        "order": "19",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/haw-2022-700.jpg"
       },
       "components": [
@@ -4401,7 +4399,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "14",
+        "order": "15",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2022-700.jpg"
       },
       "components": [
@@ -5260,7 +5258,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "13",
+        "order": "14",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2021-700.jpg"
       },
       "components": [
@@ -6119,7 +6117,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "15",
+        "order": "16",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2020-700.jpg"
       },
       "components": [
@@ -6978,7 +6976,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "23",
+        "order": "24",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2021-700.jpg"
       },
       "components": [
@@ -7818,7 +7816,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "22",
+        "order": "23",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2022-700.jpg"
       },
       "components": [
@@ -8676,7 +8674,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "24",
+        "order": "25",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2020-700.jpg"
       },
       "components": [
@@ -9513,7 +9511,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "25",
+        "order": "26",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2018-700.jpg"
       },
       "components": [
@@ -10350,7 +10348,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "26",
+        "order": "27",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2017-700.jpg"
       },
       "components": [
@@ -11187,7 +11185,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "27",
+        "order": "28",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2016-700.jpg"
       },
       "components": [
@@ -12024,7 +12022,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "28",
+        "order": "29",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2015-700.jpg"
       },
       "components": [
@@ -12861,7 +12859,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "29",
+        "order": "30",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2014-700.jpg"
       },
       "components": [
@@ -13698,7 +13696,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "30",
+        "order": "31",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2013-700.jpg"
       },
       "components": [
@@ -14536,7 +14534,7 @@
         "footer_custom": "",
         "html_before": "",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-default-800.png",
-        "order": "8"
+        "order": "9"
       },
       "components": [
         {
@@ -16384,7 +16382,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
         "html_before": "",
-        "order": "9",
+        "order": "10",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2022-700.jpg"
       },
       "components": [
@@ -17212,7 +17210,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"assets/al/al.min.js\"></script>",
         "html_before": "",
-        "order": "10",
+        "order": "11",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2022-700.jpg"
       },
       "components": [
@@ -18042,7 +18040,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "12",
+        "order": "13",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/eoc-2022-700.jpg"
       },
       "components": [
@@ -18897,7 +18895,7 @@
     "diem-nhan.html": {
       "settings": {
         "title": "Điểm nhấn Anphabe",
-        "order": "7",
+        "order": "8",
         "meta_descr": "Tìm hiểu khám phá các điển hình doanh nghiệp có văn hóa môi trường làm việc và chiến lược quản trị nhân tài xuất sắc thú vị tại Việt Nam - Độc quyền từ Anphabe - Nhà tư vấn Tiên phong về Thương hiệu Nhà tuyển dụng & Môi trường làm việc Hạnh Phúc",
         "socialSharingUrl": ""
       },
@@ -19515,7 +19513,7 @@
           },
           "_name": "content1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content1\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected>2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"4\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#fafafa\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Last News and Articles</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Read the latest news about Mobirise</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://vietnambestplacestowork.com/bat-mi-ve-van-hoa-moi-truong-lam-viec-hanh-phuc-tai-mcdonalds-viet-nam.html\"><img src=\"@PROJECT_PATH@/assets/images/3-6.jpeg\" alt=\"Bật mí về văn hóa môi trường làm việc hạnh phúc tại McDonald's Việt Nam\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"https://vietnambestplacestowork.com/bat-mi-ve-van-hoa-moi-truong-lam-viec-hanh-phuc-tai-mcdonalds-viet-nam.html\" class=\"text-primary\"><b>Bật mí về văn hóa môi trường làm việc hạnh phúc tại McDonald's Việt Nam</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>28-08-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Là một trong các doanh nghiệp nhiều năm liền từ 2015 nằm trong Top Nơi Làm Việt Tốt Nhất Việt Nam® và trong Top ngành Ẩm thực nghỉ dưỡng, McDonald’s Việt Nam là một trong các điển hình doanh nghiệp luôn...&nbsp;<a href=\"https://vietnambestplacestowork.com/bat-mi-ve-van-hoa-moi-truong-lam-viec-hanh-phuc-tai-mcdonalds-viet-nam.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"dien-hinh-jolibee.html\"><img src=\"@PROJECT_PATH@/assets/images/jolibeetop100-1.jpg\" alt=\"Jollibee Việt Nam được vinh danh Nơi Làm Việc Tốt Nhất Việt Nam 2023\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b><a href=\"dien-hinh-jolibee.html\" class=\"text-primary\"><b>Jollibee Việt Nam được vinh danh Nơi Làm Việc Tốt Nhất Việt Nam 2023</b></a>&nbsp;</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>25-11-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Jollibee Việt Nam lần đầu tiên được vinh danh là một trong top 100 doanh nghiệp xuất sắc tại giải thưởng danh giá Nơi Làm Việc Tốt Nhất Việt Nam® 2023 - Khối Doanh nghiệp Vừa. Đây là minh chứng rõ ràng cho sự...&nbsp;<a href=\"https://vietnambestplacestowork.com/dien-hinh-jolibee.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"nesle-viet-nam-nhan-cu-dup-giai-thuong-noi-lam-viec-tot-nhat.html\"><img src=\"@PROJECT_PATH@/assets/images/nestletop100-1.jpg\" alt=\"Nestlé Việt Nam nhận “cú đúp” giải thưởng nơi làm việc tốt nhất\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"https://vietnambestplacestowork.com/nesle-viet-nam-nhan-cu-dup-giai-thuong-noi-lam-viec-tot-nhat.html\" class=\"text-primary\"><b>Nestlé Việt Nam nhận “cú đúp” giải thưởng nơi làm việc tốt nhất</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>27-11-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Năm 2023 là năm thành công ngoài mong đợi của Nestlé Việt Nam khi cùng lúc được vinh danh “Top 1 nơi làm việc tốt nhất Việt Nam năm 2023 - khối doanh nghiệp lớn” do Anphabe công bố và “Doanh nghiệp tiêu biểu vì người lao động\"...&nbsp;<a href=\"nesle-viet-nam-nhan-cu-dup-giai-thuong-noi-lam-viec-tot-nhat.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"9-nam-lien-pepsico-foods-dat-top-100-noi-lam-viec-tot-nhat-viet-nam.html\"><img src=\"@PROJECT_PATH@/assets/images/pepsicofood-top100-1.jpg\" alt=\"9 năm liền PepsiCo Foods đạt Top 100 Nơi Làm Việc Tốt Nhất Việt Nam®\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"9-nam-lien-pepsico-foods-dat-top-100-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\"><b>9 năm liền PepsiCo Foods đạt Top 100 Nơi Làm Việc Tốt Nhất Việt Nam</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>27-11-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Giải thưởng dựa trên con số khảo sát độc lập từ 63,878 người đi làm tham gia đánh giá, PepsiCo Foods Việt Nam xuất sắc nằm trong Top 100 Nơi Làm Việc Tốt Nhất Việt Nam® cùng 2 danh hiệu khác....&nbsp;<a href=\"9-nam-lien-pepsico-foods-dat-top-100-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"astra-zeneca-5-nam-lien-vao-top-100-noi-lam-viec-tot-nhat-viet-nam.html\"><img src=\"@PROJECT_PATH@/assets/images/astra-top100-1.png\" alt=\"AstraZeneca 5 năm liền vào top 100 Nơi làm việc tốt nhất Việt Nam\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"astra-zeneca-5-nam-lien-vao-top-100-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\"><b>AstraZeneca 5 năm liền vào top 100 Nơi làm việc tốt nhất Việt Nam</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>01-12-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Đây là lần thứ 5 liên tiếp AstraZeneca Việt Nam được Anphabe vinh danh “Nơi làm việc tốt nhất Việt Nam®”, xếp thứ 14 trong danh sách khối doanh nghiệp lớn và thứ 4 trong toàn ngành dược - thiết bị y tế - chăm sóc sức khỏe...&nbsp;<a href=\"astra-zeneca-5-nam-lien-vao-top-100-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n          \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content1\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <select title=\"Columns\" name=\"cardsWidth\">\n            <option value=\"12\">1</option>\n            <option value=\"6\" selected>2</option>\n            <option value=\"4\">3</option>\n            <option value=\"3\">4</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" name=\"showTitle\" title=\"Title\">\n        <input type=\"checkbox\" name=\"showSubtitle\" title=\"Subtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" name=\"autoSize\" title=\"Auto Size\" checked>\n        <input type=\"range\" name=\"imageHeight\" title=\"Height\" min=\"1\" max=\"5\" step=\"1\" value=\"4\" condition=\"autoSize && !(showButtons==false && showCardSubtitle==false && showCardTitle==false && showText==false)\">\n        <input type=\"checkbox\" title=\"Spacing\" name=\"spacing\" checked>\n        <input type=\"checkbox\" name=\"showCardTitle\" title=\"Title\" checked>\n        <input type=\"checkbox\" name=\"showCardSubtitle\" title=\"Subtitle\" checked>\n        <input type=\"checkbox\" name=\"showText\" title=\"Text\" checked>\n        <input type=\"checkbox\" name=\"showButtons\" title=\"Buttons\">\n        <input type=\"color\" name=\"cardsBg\" title=\"BG\" value=\"#fafafa\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" required>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#fafafa\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h4 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Last News and Articles</b></h4>\n            <h5 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Read the latest news about Mobirise</h5>\n        </div>\n        <div class=\"row mt-4\">\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"astra-zeneca-5-nam-lien-vao-top-100-noi-lam-viec-tot-nhat-viet-nam.html\"><img src=\"@PROJECT_PATH@/assets/images/astra-top100-1.png\" alt=\"AstraZeneca 5 năm liền vào top 100 Nơi làm việc tốt nhất Việt Nam\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"astra-zeneca-5-nam-lien-vao-top-100-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\"><b>AstraZeneca 5 năm liền vào top 100 Nơi Làm Việc Tốt Nhất Việt Nam</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>01-12-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Đây là lần thứ 5 liên tiếp AstraZeneca Việt Nam được Anphabe vinh danh “Nơi làm việc tốt nhất Việt Nam®”, xếp thứ 14 trong danh sách khối doanh nghiệp lớn và thứ 4 trong toàn ngành dược - thiết bị y tế - chăm sóc sức khỏe...&nbsp;<a href=\"astra-zeneca-5-nam-lien-vao-top-100-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"wipro-tu-hao-6-nam-vung-vang-la-noi-lam-viec-tot-nhat-viet-nam.html\"><img src=\"@PROJECT_PATH@/assets/images/wipro-top100-1.jpg\" alt=\"Wipro tự hào 6 năm vững vàng là Nơi Làm Việc Tốt Nhất Việt Nam®\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"wipro-tu-hao-6-nam-vung-vang-la-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\"><b>Wipro tự hào 6 năm vững vàng là Nơi Làm Việc Tốt Nhất Việt Nam®</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>30-11-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Với gần 64.000 kết quả khảo sát từ người đi làm có kinh nghiệm trên khắp Việt Nam bình chọn, Wipro Consumer Care Việt Nam tiếp tục được xướng tên trong Danh sách Top 100 Nơi làm việc tốt nhất Việt Nam® 2023 – Khối Doanh Nghiệp Lớn...&nbsp;<a href=\"wipro-tu-hao-6-nam-vung-vang-la-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"nesle-viet-nam-nhan-cu-dup-giai-thuong-noi-lam-viec-tot-nhat.html\"><img src=\"@PROJECT_PATH@/assets/images/nestletop100-1.jpg\" alt=\"Nestlé Việt Nam nhận “cú đúp” giải thưởng nơi làm việc tốt nhất\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"https://vietnambestplacestowork.com/nesle-viet-nam-nhan-cu-dup-giai-thuong-noi-lam-viec-tot-nhat.html\" class=\"text-primary\"><b>Nestlé Việt Nam nhận “cú đúp” giải thưởng nơi làm việc tốt nhất</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>27-11-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Năm 2023 là năm thành công ngoài mong đợi của Nestlé Việt Nam khi cùng lúc được vinh danh “Top 1 nơi làm việc tốt nhất Việt Nam năm 2023 - khối doanh nghiệp lớn” do Anphabe công bố và “Doanh nghiệp tiêu biểu vì người lao động\"...&nbsp;<a href=\"nesle-viet-nam-nhan-cu-dup-giai-thuong-noi-lam-viec-tot-nhat.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"9-nam-lien-pepsico-foods-dat-top-100-noi-lam-viec-tot-nhat-viet-nam.html\"><img src=\"@PROJECT_PATH@/assets/images/pepsicofood-top100-1.jpg\" alt=\"9 năm liền PepsiCo Foods đạt Top 100 Nơi Làm Việc Tốt Nhất Việt Nam®\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"9-nam-lien-pepsico-foods-dat-top-100-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\"><b>9 năm liền PepsiCo Foods đạt Top 100 Nơi Làm Việc Tốt Nhất Việt Nam</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>27-11-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Giải thưởng dựa trên con số khảo sát độc lập từ 63,878 người đi làm tham gia đánh giá, PepsiCo Foods Việt Nam xuất sắc nằm trong Top 100 Nơi Làm Việc Tốt Nhất Việt Nam® cùng 2 danh hiệu khác....&nbsp;<a href=\"9-nam-lien-pepsico-foods-dat-top-100-noi-lam-viec-tot-nhat-viet-nam.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"dien-hinh-jolibee.html\"><img src=\"@PROJECT_PATH@/assets/images/jolibeetop100-1.jpg\" alt=\"Jollibee Việt Nam được vinh danh Nơi Làm Việc Tốt Nhất Việt Nam 2023\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><b><a href=\"dien-hinh-jolibee.html\" class=\"text-primary\"><b>Jollibee Việt Nam được vinh danh Nơi Làm Việc Tốt Nhất Việt Nam 2023</b></a>&nbsp;</b></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>25-11-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Jollibee Việt Nam lần đầu tiên được vinh danh là một trong top 100 doanh nghiệp xuất sắc tại giải thưởng danh giá Nơi Làm Việc Tốt Nhất Việt Nam® 2023 - Khối Doanh nghiệp Vừa. Đây là minh chứng rõ ràng cho sự...&nbsp;<a href=\"https://vietnambestplacestowork.com/dien-hinh-jolibee.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            \n            \n            <div class=\"item features-image сol-12 col-md-6 col-lg-{{cardsWidth}}\">\n                <div class=\"item-wrapper\">\n                    <div class=\"item-img\">\n                        <a href=\"https://vietnambestplacestowork.com/bat-mi-ve-van-hoa-moi-truong-lam-viec-hanh-phuc-tai-mcdonalds-viet-nam.html\"><img src=\"@PROJECT_PATH@/assets/images/3-6.jpeg\" alt=\"Bật mí về văn hóa môi trường làm việc hạnh phúc tại McDonald's Việt Nam\" title></a>\n                    </div>\n                    <div class=\"item-content\" mbr-if=\"showCardTitle || showCardSubtitle || showText || showButtons\">\n                        <h5 class=\"item-title mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".item-title\" mbr-if=\"showCardTitle\"><a href=\"https://vietnambestplacestowork.com/bat-mi-ve-van-hoa-moi-truong-lam-viec-hanh-phuc-tai-mcdonalds-viet-nam.html\" class=\"text-primary\"><b>Bật mí về văn hóa môi trường làm việc hạnh phúc tại McDonald's Việt Nam</b></a></h5>\n                        <h6 class=\"item-subtitle mbr-fonts-style mt-1\" mbr-theme-style=\"display-7\" data-app-selector=\".item-subtitle\" mbr-if=\"showCardSubtitle\"><i>28-08-2023 | </i><a href=\"diem-nhan.html\" class=\"text-primary\"><b>Điểm nhấn</b></a></h6>\n                        <p class=\"mbr-text mbr-fonts-style mt-3\" mbr-if=\"showText\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\">Là một trong các doanh nghiệp nhiều năm liền từ 2015 nằm trong Top Nơi Làm Việt Tốt Nhất Việt Nam® và trong Top ngành Ẩm thực nghỉ dưỡng, McDonald’s Việt Nam là một trong các điển hình doanh nghiệp luôn...&nbsp;<a href=\"https://vietnambestplacestowork.com/bat-mi-ve-van-hoa-moi-truong-lam-viec-hanh-phuc-tai-mcdonalds-viet-nam.html\" class=\"text-primary\">Xem thêm</a></p>\n                    </div>\n                    <div class=\"mbr-section-btn item-footer mt-2\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd\" mbr-buttons mbr-theme-style=\"display-7\">\n                        <a href class=\"btn btn-primary item-btn\" target=\"_blank\" data-app-placeholder=\"Type Text\">Learn\n                            more</a>\n                    </div>\n                </div>\n            </div>\n            \n          \n        </div>\n    </div>\n</section>",
           "_cid": "tOchd5ykVb",
           "_anchor": "content1-5u",
           "_PHPplaceholders": [],
@@ -21028,7 +21026,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "20",
+        "order": "21",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2023-le-700.png"
       },
       "components": [
@@ -22209,7 +22207,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "21",
+        "order": "22",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2023-sme-700.png"
       },
       "components": [
@@ -23390,7 +23388,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "11",
+        "order": "12",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/eoc-2023-700.jpg"
       },
       "components": [
@@ -24252,7 +24250,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "16",
+        "order": "17",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/haw-2023-700.jpg"
       },
       "components": [
@@ -25114,7 +25112,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "17",
+        "order": "18",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/haw-2023-700.jpg"
       },
       "components": [
@@ -32957,6 +32955,1094 @@
           "_isUserblock": true,
           "_cid": "tYiyDkNUcS",
           "_anchor": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-9a",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "wipro-tu-hao-6-nam-vung-vang-la-noi-lam-viec-tot-nhat-viet-nam.html": {
+      "settings": {
+        "title": "Wipro tự hào 6 năm vững vàng là Nơi Làm Việc Tốt Nhất Việt Nam",
+        "order": "7",
+        "header_custom": "",
+        "socialSharingUrl": "",
+        "footer_custom": "",
+        "meta_descr": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/wipro-top100-1.jpg"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "width": "100%",
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": ".667em 0.5em !important",
+              "font-size": "14px"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative",
+              "color": "white"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".navbar-caption": {
+              "padding-right": "4rem"
+            },
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "border-bottom": "none",
+              "&:not(.navbar-short)": {
+                "border-bottom": "none"
+              },
+              "& when not (@transparent)": {
+                "background": "transparent"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all .3s"
+              },
+              ".dropdown-item": {
+                "padding": ".5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "2px",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0",
+                  "margin-top": "2px",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-unity": {
+                  "display": "none"
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "#ffffff",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "background-color": "#ffffff",
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding-bottom": "5px",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "0",
+              "padding-right": "1rem",
+              "padding-top": "2px",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            },
+            ".navbar .btn": {
+              "margin": "0",
+              "text-transform": "uppercase",
+              "color": "#000000 !important",
+              "&:hover": {
+                "color": "#000000 !important"
+              }
+            },
+            ".navbar .btn .mbr-iconfont-btn": {
+              "display": "inline-block",
+              "width": "18px",
+              "height": "18px",
+              "color": "#ffa800",
+              "font-size": "12px !important",
+              "font-weight": "700",
+              "padding": "3px 0px 0px 2px",
+              "background": "black",
+              "border-radius": "3px"
+            },
+            ".navbar-unity": {
+              "width": "100%",
+              "padding-top": "3px",
+              "border-bottom": "1px solid #8B8989",
+              "margin-bottom": "15px",
+              ".nav-link": {
+                "font-size": "12px"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n\n         <div class=\"navbar-unity\">\n          <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n              <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                  <a class=\"iconfont-wrapper\" href=\"https://www.facebook.com/vietnam100bestplacestowork\" target=\"_blank\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-youtube socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n              </div>\n              <div class=\"menu-contact justify-content-end align-items-start flex-grow-1 d-flex\">\n                  \n                    <div> <a class=\"nav-link link text-secondary display-7\" href=\"mailto:clientsolution@anphabe.com\"><span mbr-icon class=\"mbr-iconfont socicon-mail socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 13px;\"></span><span class=\"d-none d-lg-inline-block\">clientsolution@anphabe.com</span></a> </div> \n                      <div><a class=\"nav-link link text-secondary display-7\" href=\"tel:+842862682222\"><span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span><span class=\"d-none d-lg-inline-block\">(+84) 28 6268 2222</span></a></div>\n                  \n                    <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"d-none d-md-inline-block navbar-buttons mbr-section-btn\"><a class=\"btn btn-warning\" href=\"lien-he.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 12px;\"></span>\n                            <span>LIÊN HỆ</span></a></div>\n              </div>\n          </div>      \n        </div>             \n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://vietnambestplacestowork.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/vietnambestplacestowork-logo-94x60.png\" alt=\"Vietnam Best Places To Work\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Vietnam Best Places To Work</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"index.html#gioi-thieu\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">VỀ GIẢI THƯỞNG</a></li>\n                    <li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">100 NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"diem-nhan.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">ĐIỂM NHẤN\n<br><br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://vietnambestplacestowork.com/goc-bao-chi/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">GÓC BÁO CHÍ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"lien-he.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LIÊN HỆ</a></li></ul>\n                \n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "tYjbLsd4vF",
+          "_anchor": "menu1-9b",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "20px",
+              "color": "#000 !important",
+              "&:hover": {
+                "color": "#000 !important"
+              }
+            },
+            ".btn .mbr-iconfont-btn": {
+              "display": "inline-block",
+              "width": "22px",
+              "height": "22px",
+              "color": "#ffa800",
+              "font-size": "15px !important",
+              "font-weight": "700",
+              "padding": "4px 0px 0px 2px",
+              "background": "black",
+              "border-radius": "3px"
+            }
+          },
+          "_name": "menu1-fQIF0DefTd",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-cover-1440x774.png\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">\n                        Header Subtitle\n                    </h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise Free Website Maker is perfect for non-techies and great for pro-coders for fast prototyping and small customers' projects.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3 mt-md-5\" mbr-if=\"showButtons\"><a class=\"btn btn-warning\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2022.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 12px;\"></span>XEM NGAY</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "tYjbLsZw3H",
+          "_anchor": "menu1-fQIF0DefTd-9c",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"11\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/wipro-top100-1.jpg\" alt=\"Wipro tự hào 6 năm vững vàng là Nơi Làm Việc Tốt Nhất Việt Nam\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\">\n                        Image Description</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tYjbLtDm3H",
+          "_anchor": "image3-9d",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-subtitle": {
+              "text-align": "left"
+            },
+            ".btm-line": {
+              "border-bottom": "1px solid #d9d9d9",
+              "padding-bottom": "1rem"
+            }
+          },
+          "_name": "content4",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"10\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth} \">\n        <div class=\"row justify-content-center \">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Wipro tự hào 6 năm vững vàng là Nơi Làm Việc Tốt Nhất Việt Nam®</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4 btm-line\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\"><i>30-11-2023</i> | <a href=\"diem-nhan.html\" class=\"text-primary\" target=\"_blank\"><b>Điểm nhấn</b></a></h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "tYjbLu1Xoe",
+          "_anchor": "content4-9e",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\"><b>Với gần 64.000 kết quả khảo sát từ người đi làm có kinh nghiệm trên khắp Việt Nam bình chọn, Wipro Consumer Care Việt Nam tiếp tục được xướng tên trong Danh sách Top 100 Nơi làm việc tốt nhất Việt Nam® 2023 – Khối Doanh Nghiệp Lớn.</b></h4>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "tYjbLuswA7",
+          "_anchor": "content5-9f",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\"><b>Năm thứ 6 được vinh danh là Nơi Làm Việc Tốt Nhất Việt Nam®</b></h3>                \n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Ngày 23/11, tại hội nghị Nơi Làm Việc Tốt Nhất Việt Nam® 2023, Wipro Consumer Care Việt Nam (gọi tắt là Wipro) đã được Anphabe - Nhà tư vấn về giải pháp Thương hiệu Nhà tuyển dụng và Môi trường làm việc Hạnh phúc vinh danh ở tất cả các hạng mục năm nay, bao gồm: Top 100 Nơi Làm Việc Tốt Nhất Việt Nam 2023 – Khối Doanh nghiệp Lớn, Top 50 Thương Hiệu Nhà Tuyển Dụng Hấp Dẫn Nhất Do Sinh Viên Bình Chọn 2023, Top 15 Doanh Nghiệp Tiêu Biểu Có Nguồn Nhân Lực Hạnh Phúc 2023 – Khối Doanh nghiệp Lớn.<br> \n<br>Giải thưởng môi trường làm việc uy tín và minh bạch này được thực hiện hàng năm do Anphabe kết hợp cùng Công ty nghiên cứu thị trường Intage Việt Nam và có sự bảo trợ của Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI). Giải thưởng dựa trên khảo sát 100 Nơi làm việc tốt nhất Việt Nam được thực hiện hoàn toàn độc lập, ghi nhận những ý kiến khách quan nhất từ người đi làm nhằm đo lường sức khỏe Thương hiệu Nhà tuyển dụng của gần 800 doanh nghiệp hàng đầu, thuộc 18 ngành nghề, từ đó đưa ra thang chuẩn cho Việt Nam và vinh danh những doanh nghiệp được bình chọn là nơi làm việc tốt nhất Việt Nam.  <br></p>\n</div>\n        </div>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "tYjbLvp3KB",
+          "_anchor": "content5-9g",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/wipro-top100-2.jpg\" alt=\"Khoảnh khắc ăn mừng chiến thắng của đại diện tập thể ban lãnh đạo Wipro tại lễ vinh danh Nơi Làm Việc Tốt Nhất Việt Nam® 2023\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\"><i>Khoảnh khắc ăn mừng chiến thắng của đại diện tập thể ban lãnh đạo Wipro tại lễ vinh danh Nơi Làm Việc Tốt Nhất Việt Nam® 2023</i><br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tYjbLw2uwE",
+          "_anchor": "image3-9h",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\"><b>Vun đắp xây dựng một môi trường làm việc để mỗi nhân viên: \"Học hỏi – Phát triển – Vui sống – Hạnh phúc\"</b></h3>                \n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\"><i>\n                    \"Tại Wipro, con người là trọng tâm và tài sản quý giá nhất cùng với sứ mệnh đầy hoài bão chăm sóc hàng triệu gia đình Việt Nam bằng những sản phẩm chất lượng. Chúng tôi luôn nỗ lực từng ngày để xây dựng một môi trường làm việc lý tưởng, nơi mà nhân viên có thể phát triển bản thân theo thế mạnh, và toả sáng theo cách riêng của mình. Nhân viên có cơ hội học hỏi, trải nghiệm và được thăng tiến.\"</i> Chị Trần Thị Ngọc Báu – Giám đốc Nhân sự cho hay.<br><br>Để bắt kịp với nhu cầu của nhân viên và cũng là xu hướng chung của toàn cầu, Wipro còn đẩy mạnh các hoạt động chăm sóc về sức khỏe tinh thần và sức khỏe tài chính nhằm đảm bảo một một trường hạnh phúc cho nhân viên của mình.<br></p>\n            \n          </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "tYjbLwsfng",
+          "_anchor": "content5-9i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/wipro-top100-3.jpg\" alt=\"Hình ảnh các nhân viên Wipro đầy năng lượng trong các chương trình team building\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\"><i>Hình ảnh các nhân viên Wipro đầy năng lượng trong các chương trình team building</i><br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tYjbLx46qL",
+          "_anchor": "image3-9j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\"></h3>                \n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Không chỉ phát triển nguồn nhân lực trong công ty, Wipro cho biết công ty chú trọng nguồn nhân lực kế thừa, trong đó nổi bật là các cơ hội việc làm và đào tạo cho các bạn trẻ khắp đất nước thông qua các chương trình thường niên như \"Sales Trainee - Giám sát bán hàng tập sự\" hay \"Internship Program - Chương trình thực tập sinh\". Tại đây, các sinh viên đại học sắp và mới ra trường sẽ được trải nghiệm thực tiễn, đào tạo kỹ năng qua những công việc thực tế, được trao quyền quản lý từ đó nâng cao tay nghề và kiến thức chuyên môn, sẵn sàng đảm nhiệm những vị trí quản lý trong tương lai.<br></p>\n        </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "tYjbLxt1I9",
+          "_anchor": "content5-9k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".row": {
+              "flex-direction": "row-reverse"
+            },
+            "img": {
+              "width": "100%"
+            }
+          },
+          "_name": "image3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"image3\" group=\"Images & Videos\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Image\" min=\"4\" max=\"12\" step=\"1\" value=\"7\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <div class=\"image-wrapper\">\n                    <img src=\"@PROJECT_PATH@/assets/images/wipro-top100-4.jpg\" alt=\"Hoạt động mừng ngày Tết do các nhân viên Wipro thực hiện\">\n                    <p class=\"mbr-description mbr-fonts-style mt-2 align-center\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-description\"><i>Hoạt động mừng ngày Tết do các nhân viên Wipro thực hiện</i><br></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tYjbLxOGhF",
+          "_anchor": "image3-9l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "background-color": "@bgColor"
+          },
+          "_name": "content5",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content5\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">              \n                <p class=\"mbr-text mbr-fonts-style\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Giải thưởng đã một lần nữa khẳng định thành quả của Wipro trong việc nỗ lực duy trì và phát huy hiệu quả sản xuất kinh doanh kể cả trong giai đoạn thị trường gặp nhiều biến động, đồng thời vẫn đảm bảo xây dựng môi trường làm việc chuyên nghiệp, gắn kết, sáng tạo. Từ đây nâng cao vị thế trong các công ty ngành hàng tiêu dùng nhanh (FMCG), đồng thời chung tay tạo nên một nền kinh tế bền vững và lớn mạnh. Giải thưởng còn là sự ghi nhận tuyệt vời cho những cống hiến và nỗ lực của toàn thể nhân viên Wipro trong việc không ngừng xây dựng môi trường làm việc \"Học hỏi – Phát triển – Vui sống – Hạnh phúc\".<br><br>Kể từ khi thành lập vào năm 1980, Wipro Consumer Care Việt Nam đã trở thành nhà sản xuất và phân phối các sản phẩm tiêu dùng hàng đầu với hơn 35 thương hiệu nổi tiếng, hiện diện tại hơn 60 quốc gia trên toàn thế giới.<br><br>Wipro Consumer Care Việt Nam được biết đến với các sản phẩm Chăm sóc cá nhân và Chăm sóc gia đình như: Romano, Enchanteur, Gervenne, Bio-essence, Carrie Junior, Aiken, MaxKleen.<br></p>\n                </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "tYjbLyduVs",
+          "_anchor": "content5-9m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".media-wrap": {
+              "padding": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "line-height": "1.3em",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            },
+            "@media (max-width: 991px)": {
+              "div > *:last-child": {
+                "margin-top": "0 !important"
+              }
+            },
+            ".copyright": {
+              "text-align": "left"
+            },
+            ".footer-title": {
+              "border-bottom": "1px solid #bbbbbb",
+              "line-height": "1.6"
+            },
+            ".copyright-style": {
+              "font-size": "0.8rem"
+            },
+            ".hotline": {
+              "font-weight": "bold",
+              "color": "red",
+              "font-size": "1rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center",
+                "& > div": {
+                  "margin": "auto"
+                }
+              },
+              ".social-row": {
+                "justify-content": "center"
+              },
+              ".media-wrap img": {
+                "width": "auto"
+              },
+              ".row > div": {
+                "margin-bottom": "1rem",
+                "text-align": "left",
+                "padding-left": "2rem"
+              },
+              ".footer-title": {
+                "text-align": "left"
+              },
+              "padding-top": "(@paddingTop * 0.5rem)",
+              "padding-bottom": "(@paddingTop * 0.5rem)"
+            },
+            ".bg-facebook when (@facebook)": {
+              "background": "#1778f2",
+              "color": "contrast(#1778f2)",
+              "&:hover": {
+                "background": "darken(#1778f2, 10)"
+              }
+            },
+            ".bg-twitter when (@twitter)": {
+              "background": "#1da1f2",
+              "color": "contrast(#1da1f2)",
+              "&:hover": {
+                "background": "darken(#1da1f2, 10)"
+              }
+            },
+            ".bg-pinterest when (@pinterest)": {
+              "background": "#e60023",
+              "color": "contrast(#e60023)",
+              "&:hover": {
+                "background": "darken(#e60023, 10)"
+              }
+            },
+            ".bg-instagram when (@instagram)": {
+              "background": "#f00075",
+              "color": "contrast(#f00075)",
+              "&:hover": {
+                "background": "darken(#f00075, 10)"
+              }
+            },
+            ".bg-slack when (@slack)": {
+              "background": "#4a154b",
+              "color": "contrast(#4a154b)",
+              "&:hover": {
+                "background": "darken(#4a154b, 10)"
+              }
+            },
+            ".bg-linkedin when (@linkedin)": {
+              "background": "#0077b5",
+              "color": "contrast(#0077b5)",
+              "&:hover": {
+                "background": "darken(#0077b5, 10)"
+              }
+            },
+            ".bg-behance when (@behance)": {
+              "background": "#0056ff",
+              "color": "contrast(#0056ff)",
+              "&:hover": {
+                "background": "darken(#0056ff, 10)"
+              }
+            },
+            ".bg-dribbble when (@dribbble)": {
+              "background": "#ea4c89",
+              "color": "contrast(#ea4c89)",
+              "&:hover": {
+                "background": "darken(#ea4c89, 10)"
+              }
+            },
+            ".bg-tiktok when (@tiktok)": {
+              "background": "#000000",
+              "color": "contrast(#000000)",
+              "&:hover": {
+                "background": "darken(#000000, 10)"
+              }
+            },
+            ".bg-youtube when (@youtube)": {
+              "background": "#ff0000",
+              "color": "contrast(#ff0000)",
+              "&:hover": {
+                "background": "darken(#ff0000, 10)"
+              }
+            },
+            ".bg-twitch when (@twitch)": {
+              "background": "#9146ff",
+              "color": "contrast(#9146ff)",
+              "&:hover": {
+                "background": "darken(#9146ff, 10)"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "font-size": "20px",
+              "border-radius": "50%",
+              "width": "35px",
+              "height": "35px",
+              "line-height": "35px",
+              "text-align": "center",
+              "transition": "all 0.3s ease-in-out"
+            },
+            "& when (@squareIcons)": {
+              ".iconfont-wrapper": {
+                "border-radius": "0 !important"
+              }
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "35px",
+              "padding": ".4rem"
+            },
+            ".m-2": {
+              "margin": "0.2rem!important"
+            },
+            ".text-info": {
+              "color": "#000000"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer4\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"logoSize\" min=\"1\" max=\"3\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"4\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>        \n        <input type=\"checkbox\" title=\"Square Icons\" name=\"squareIcons\">\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n        <input type=\"checkbox\" title=\"Instagram\" name=\"instagram\" checked>\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Slack\" name=\"slack\">\n        <input type=\"checkbox\" title=\"Linkedin\" name=\"linkedin\" checked>\n        <input type=\"checkbox\" title=\"Behance\" name=\"behance\">\n        <input type=\"checkbox\" title=\"Dribbble\" name=\"dribbble\">\n        <input type=\"checkbox\" title=\"Tiktok\" name=\"tiktok\">\n        <input type=\"checkbox\" title=\"Youtube\" name=\"youtube\" checked>\n        <input type=\"checkbox\" title=\"Twitch\" name=\"twitch\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"media-wrap col-md-{{4*logoSize}} col-12\">                    \n                        <a href=\"https://www.anphabe.com\"><img src=\"@PROJECT_PATH@/assets/images/logo-anphabe.png\" style=\"width:auto;\" alt=\"Anphabe\"></a>                    \n                </div>\n                <p class=\"mbr-text mt-3 mbr-fonts-style copyright align-center copyright-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    Tầng 6, tòa nhà Packsimex<br>\n                    52 Đông Du, Phường Bến Nghé, Quận 1, Tp.HCM</p>\n                <p class=\"mbr-text mt-3 mb-2 mbr-fonts-style copyright align-center copyright-style mt-3\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">Hotline: <span class=\"hotline\"><a href=\"tel:+842862682222\" class=\"text-info\">(+84) 28 6268 2222</a></span></p>                \n                <div class=\"social-list\">  \n                    <a class=\"iconfont-wrapper bg-linkedin m-2\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"linkedin\">\n                        <span mbr-icon class=\"socicon-linkedin socicon\"></span>\n                    </a> \n                    <a class=\"iconfont-wrapper bg-facebook m-2 \" target=\"_blank\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/vietnam100bestplacestowork\" mbr-if=\"facebook\">\n                        <span mbr-icon class=\"socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper bg-youtube m-2\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"youtube\">\n                        <span mbr-icon class=\"socicon-youtube socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper bg-twitter m-2\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"twitter\">\n                        <span mbr-icon class=\"socicon-twitter socicon\"></span>\n                    </a>   \n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-2 padding-footer\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>Về Anphabe</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/\" class=\"text-white text-primary\">Giới thiệu</a></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/discussions/questions-answers\" class=\"text-white text-primary\" style=\"font-size: 1rem;\">Tài nguyên</a><br></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/lien-he.html \" class=\"text-white text-primary\" style=\"font-size: 1rem;\">Liên hệ</a><br></li>\n                    <li class=\"mbr-text item-wrap\"></li>\n                  \n                </ul>\n            </div>            \n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Giải pháp</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/giai-phap-linkedin-talent-solutions.html \" class=\"text-white text-primary\" style=\"font-size: 1rem;\">LinkedIn Talent Solutions</a><br></li><a href=\"giai-phap-linkedin-talent-solutions.html\" class=\"text-primary\">\n                    </a><li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/giai-phap-workplace-from-meta.html \" class=\"text-white text-primary\">Workplace from Meta</a></li><a href=\"giai-phap-workplace-from-meta.html\" class=\"text-primary\">\n                    </a><li class=\"mbr-text item-wrap\"><br></li><li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Giải thưởng</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"index.html\" class=\"text-white text-primary\">100 Nơi Làm Việc Tốt Nhất Việt Nam</a><sup>®</sup></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://vietnamexcellence.vn/\" class=\"text-white text-primary\">Vietnam Excellence</a><sup>®<sup></sup></sup></li>\n                </ul>\n            </div>            \n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "tYjbLyyogJ",
+          "_anchor": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-9n",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
