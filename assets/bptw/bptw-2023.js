@@ -1,5 +1,5 @@
 (function ($) {
-    let apiURL = 'https://company.vietnambestplacestowork.com/api/export-company-award/{award}/{year}?x_auth_token=AwHBFADBohjsnZj6lK7yRM9lI1OH5EZx'
+    let apiURL = 'https://csbe8.vietnambestplacestowork.com/api/export-company-award/{award}/{year}'
 
     let template = {
         "grid": {
