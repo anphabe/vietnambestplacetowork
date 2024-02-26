@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Khảo sát dành cho người đi làm",
-    "currentPage": "thongtinquatang.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -57,7 +57,7 @@
       }
     ],
     "uniqCompNum": 73,
-    "versionPublish": "5.6.13",
+    "versionPublish": "5.9.0",
     "favicon": "@PROJECT_PATH@/assets/images/noi-lam-viec-tot-nhat-vietnam-default-800.png",
     "mbrsiteDomain": "9z14oj56iv",
     "imageResize": false,
