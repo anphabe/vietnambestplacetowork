@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2023",
-    "currentPage": "lien-he.html",
+    "currentPage": "cau-hoi-thuong-gap.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -58,7 +58,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "witsec-white-label": true,
-    "uniqCompNum": 424,
+    "uniqCompNum": 432,
     "versionPublish": "5.9.0",
     "screenshot": "screenshot.png",
     "global_header_custom": "<meta name=\"content_group\" content=\"VNBPTW\" />\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery-bundle.min.css\" integrity=\"sha512-nUqPe0+ak577sKSMThGcKJauRI7ENhKC2FQAOOmdyCYSrUh0GnwLsZNYqwilpMmplN+3nO3zso8CWUgu33BDag==\" crossorigin=\"anonymous\" referrerpolicy=\"no-referrer\" />\n\n<link rel=\"stylesheet\" href=\"assets/justified-gallery/justifiedGallery.min.css\" />\n\n<script>\nfunction keep_url_query(){\n    let query = window.location.search;\n    \n    if(query == \"\") {\n        return false;\n    }\n    let searchParams = new URLSearchParams(query);\n\n    let atags = document.getElementsByTagName(\"a\"); \n    let i;\n    for (i = 0; i < atags.length; i++) {\n        let new_url = new URL(atags[i].href);\n        for (const [key, value] of searchParams) {\n            new_url.searchParams.set(key, value);\n        }\n        atags[i].href = new_url.toString();  \n    } \n\n    let elements = document.getElementById(\"destination\"); \n    for (i = 0; i < elements.length; i++) {\n        let new_url = new URL(elements[i].value);\n        for (const [key, value] of searchParams) {\n            new_url.searchParams.set(key, value);\n        }\n        elements[i].href = new_url.toString();  \n    } \n\n}\n\nif (\n    document.readyState === \"complete\" ||\n    (document.readyState !== \"loading\" && !document.documentElement.doScroll)\n) {\n  keep_url_query();\n} else {\n  document.addEventListener(\"DOMContentLoaded\", keep_url_query);\n}\n</script>\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://tr.anphabe.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-NDHSN6W');</script>\n<!-- End Google Tag Manager -->\n<meta name=\"facebook-domain-verification\" content=\"mruh954gyrjd7ccca3i08dzmxmuksh\" />\n\n<!-- PiwikTag Manager -->\n<script type=\"text/javascript\">\n(function(window, document, dataLayerName, id) {\nwindow[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:\"stg.start\"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');\nfunction stgCreateCookie(a,b,c){var d=\"\";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d=\"; expires=\"+e.toUTCString()}document.cookie=a+\"=\"+b+d+\"; path=/\"}\nvar isStgDebug=(window.location.href.match(\"stg_debug\")||document.cookie.match(\"stg_debug\"))&&!window.location.href.match(\"stg_disable_debug\");stgCreateCookie(\"stg_debug\",isStgDebug?1:\"\",isStgDebug?14:-1);\nvar qP=[];dataLayerName!==\"dataLayer\"&&qP.push(\"data_layer_name=\"+dataLayerName),isStgDebug&&qP.push(\"stg_debug\");var qPString=qP.length>0?(\"?\"+qP.join(\"&\")):\"\";\ntags.async=!0,tags.src=\"https://anphabe.containers.piwik.pro/\"+id+\".js\"+qPString,scripts.parentNode.insertBefore(tags,scripts);\n!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);\"string\"==typeof a[0]&&window[dataLayerName].push({event:n+\".\"+i+\":\"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,\"ppms\",[\"tm\",\"cm\"]);\n})(window, document, 'dataLayer', 'c350782e-93f4-4aea-b396-51aa1ba03f8c');\n</script>",
@@ -3192,7 +3192,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "24",
+        "order": "25",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/haw-2021-700.jpg"
       },
       "components": [
@@ -4032,7 +4032,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "23",
+        "order": "24",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/haw-2022-700.jpg"
       },
       "components": [
@@ -4891,7 +4891,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "19",
+        "order": "20",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2022-700.jpg"
       },
       "components": [
@@ -5750,7 +5750,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "18",
+        "order": "19",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2021-700.jpg"
       },
       "components": [
@@ -6609,7 +6609,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "20",
+        "order": "21",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2020-700.jpg"
       },
       "components": [
@@ -7468,7 +7468,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "28",
+        "order": "29",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2021-700.jpg"
       },
       "components": [
@@ -8308,7 +8308,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "27",
+        "order": "28",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2022-700.jpg"
       },
       "components": [
@@ -9166,7 +9166,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "29",
+        "order": "30",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2020-700.jpg"
       },
       "components": [
@@ -10003,7 +10003,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "30",
+        "order": "31",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2018-700.jpg"
       },
       "components": [
@@ -10840,7 +10840,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "31",
+        "order": "32",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2017-700.jpg"
       },
       "components": [
@@ -11677,7 +11677,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "32",
+        "order": "33",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2016-700.jpg"
       },
       "components": [
@@ -12514,7 +12514,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "33",
+        "order": "34",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2015-700.jpg"
       },
       "components": [
@@ -13351,7 +13351,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "34",
+        "order": "35",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2014-700.jpg"
       },
       "components": [
@@ -14188,7 +14188,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "35",
+        "order": "36",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2013-700.jpg"
       },
       "components": [
@@ -15026,7 +15026,7 @@
         "footer_custom": "",
         "html_before": "",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-default-800.png",
-        "order": "13"
+        "order": "14"
       },
       "components": [
         {
@@ -16874,7 +16874,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
         "html_before": "",
-        "order": "14",
+        "order": "15",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2022-700.jpg"
       },
       "components": [
@@ -17702,7 +17702,7 @@
         "header_custom": "",
         "footer_custom": "<script src=\"assets/al/al.min.js\"></script>",
         "html_before": "",
-        "order": "15",
+        "order": "16",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2022-700.jpg"
       },
       "components": [
@@ -18131,7 +18131,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n\n         <div class=\"navbar-unity\">\n          <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n              <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                  <a class=\"iconfont-wrapper\" href=\"https://www.facebook.com/vietnam100bestplacestowork\" target=\"_blank\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-youtube socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n              </div>\n              <div class=\"menu-contact justify-content-end align-items-start flex-grow-1 d-flex\">\n                  \n                    <div> <a class=\"nav-link link text-secondary display-7\" href=\"mailto:clientsolution@anphabe.com\"><span mbr-icon class=\"mbr-iconfont socicon-mail socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 13px;\"></span><span class=\"d-none d-lg-inline-block\">clientsolution@anphabe.com</span></a> </div> \n                      <div><a class=\"nav-link link text-secondary display-7\" href=\"tel:+842862682222\"><span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span><span class=\"d-none d-lg-inline-block\">(+84) 28 6268 2222</span></a></div>\n                  \n                    <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"d-none d-md-inline-block navbar-buttons mbr-section-btn\"><a class=\"btn btn-warning\" href=\"lien-he.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 12px;\"></span>\n                            <span>LIÊN HỆ</span></a></div>\n              </div>\n          </div>      \n        </div>             \n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://vietnambestplacestowork.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/vietnambestplacestowork-logo-94x60.png\" alt=\"Vietnam Best Places To Work\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Vietnam Best Places To Work</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown open\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"index.html#gioi-thieu\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">GIỚI THIỆU</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-742\"><a class=\"text-white text-primary dropdown-item\" href=\"index.html#phuong-phap\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Phương pháp<br></a></div></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">BẢNG XẾP HẠNG</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-562\"><a class=\"text-white text-primary dropdown-item\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Nơi làm việc tốt nhất Việt Nam</a><a class=\"text-white text-primary show dropdown-item\" href=\"top-50-thuong-hieu-nha-tuyen-dung-hap-dan-voi-sinh-vien-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Thương Hiệu Nhà Tuyển Dụng hấp dẫn với sinh viên Việt Nam</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://vietnambestplacestowork.com/goc-bao-chi/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">GÓC BÁO CHÍ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://event.anphabe.com/vietnambestplacestowork/2023/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">SỰ KIỆN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"diem-nhan.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DOANH NGHIỆP ĐIỂN HÌNH<br><br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"lien-he.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LIÊN HỆ</a></li></ul>\n                \n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n\n         <div class=\"navbar-unity\">\n          <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n              <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                  <a class=\"iconfont-wrapper\" href=\"https://www.facebook.com/vietnam100bestplacestowork\" target=\"_blank\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-youtube socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n              </div>\n              <div class=\"menu-contact justify-content-end align-items-start flex-grow-1 d-flex\">\n                  \n                    <div> <a class=\"nav-link link text-secondary display-7\" href=\"mailto:clientsolution@anphabe.com\"><span mbr-icon class=\"mbr-iconfont socicon-mail socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 13px;\"></span><span class=\"d-none d-lg-inline-block\">clientsolution@anphabe.com</span></a> </div> \n                      <div><a class=\"nav-link link text-secondary display-7\" href=\"tel:+842862682222\"><span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span><span class=\"d-none d-lg-inline-block\">(+84) 28 6268 2222</span></a></div>\n                  \n                    <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"d-none d-md-inline-block navbar-buttons mbr-section-btn\"><a class=\"btn btn-warning\" href=\"lien-he.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 12px;\"></span>\n                            <span>LIÊN HỆ</span></a></div>\n              </div>\n          </div>      \n        </div>             \n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://vietnambestplacestowork.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/vietnambestplacestowork-logo-94x60.png\" alt=\"Vietnam Best Places To Work\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Vietnam Best Places To Work</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"index.html#gioi-thieu\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">GIỚI THIỆU</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-742\"><a class=\"text-white text-primary dropdown-item\" href=\"index.html#phuong-phap\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Phương pháp<br></a></div></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">BẢNG XẾP HẠNG</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-562\"><a class=\"text-white text-primary dropdown-item\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Nơi làm việc tốt nhất Việt Nam</a><a class=\"text-white text-primary show dropdown-item\" href=\"top-50-thuong-hieu-nha-tuyen-dung-hap-dan-voi-sinh-vien-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Thương Hiệu Nhà Tuyển Dụng hấp dẫn với sinh viên Việt Nam</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://vietnambestplacestowork.com/goc-bao-chi/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">GÓC BÁO CHÍ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://event.anphabe.com/vietnambestplacestowork/2023/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">SỰ KIỆN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"diem-nhan.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DOANH NGHIỆP ĐIỂN HÌNH<br><br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"lien-he.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LIÊN HỆ</a></li></ul>\n                \n            </div>\n        </div>\n    </nav>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tWdkxQ523q",
@@ -18532,7 +18532,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "17",
+        "order": "18",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/eoc-2022-700.jpg"
       },
       "components": [
@@ -19817,7 +19817,7 @@
           },
           "_name": "menu1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n\n         <div class=\"navbar-unity\">\n          <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n              <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                  <a class=\"iconfont-wrapper\" href=\"https://www.facebook.com/vietnam100bestplacestowork\" target=\"_blank\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-youtube socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n              </div>\n              <div class=\"menu-contact justify-content-end align-items-start flex-grow-1 d-flex\">\n                  \n                    <div> <a class=\"nav-link link text-secondary display-7\" href=\"mailto:clientsolution@anphabe.com\"><span mbr-icon class=\"mbr-iconfont socicon-mail socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 13px;\"></span><span class=\"d-none d-lg-inline-block\">clientsolution@anphabe.com</span></a> </div> \n                      <div><a class=\"nav-link link text-secondary display-7\" href=\"tel:+842862682222\"><span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span><span class=\"d-none d-lg-inline-block\">(+84) 28 6268 2222</span></a></div>\n                  \n                    <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"d-none d-md-inline-block navbar-buttons mbr-section-btn\"><a class=\"btn btn-warning\" href=\"lien-he.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 12px;\"></span>\n                            <span>LIÊN HỆ</span></a></div>\n              </div>\n          </div>      \n        </div>             \n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://vietnambestplacestowork.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/vietnambestplacestowork-logo-94x60.png\" alt=\"Vietnam Best Places To Work\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Vietnam Best Places To Work</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown open\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"index.html#gioi-thieu\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">GIỚI THIỆU</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-742\"><a class=\"text-white text-primary dropdown-item\" href=\"index.html#phuong-phap\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Phương pháp<br></a></div></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">BẢNG XẾP HẠNG</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-562\"><a class=\"text-white text-primary dropdown-item\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Nơi làm việc tốt nhất Việt Nam</a><a class=\"text-white text-primary show dropdown-item\" href=\"top-50-thuong-hieu-nha-tuyen-dung-hap-dan-voi-sinh-vien-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Thương Hiệu Nhà Tuyển Dụng hấp dẫn với sinh viên Việt Nam</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://vietnambestplacestowork.com/goc-bao-chi/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">GÓC BÁO CHÍ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://event.anphabe.com/vietnambestplacestowork/2023/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">SỰ KIỆN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"diem-nhan.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DOANH NGHIỆP ĐIỂN HÌNH<br><br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"lien-he.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LIÊN HỆ</a></li></ul>\n                \n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n\n         <div class=\"navbar-unity\">\n          <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n              <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                  <a class=\"iconfont-wrapper\" href=\"https://www.facebook.com/vietnam100bestplacestowork\" target=\"_blank\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-youtube socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n              </div>\n              <div class=\"menu-contact justify-content-end align-items-start flex-grow-1 d-flex\">\n                  \n                    <div> <a class=\"nav-link link text-secondary display-7\" href=\"mailto:clientsolution@anphabe.com\"><span mbr-icon class=\"mbr-iconfont socicon-mail socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 13px;\"></span><span class=\"d-none d-lg-inline-block\">clientsolution@anphabe.com</span></a> </div> \n                      <div><a class=\"nav-link link text-secondary display-7\" href=\"tel:+842862682222\"><span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span><span class=\"d-none d-lg-inline-block\">(+84) 28 6268 2222</span></a></div>\n                  \n                    <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"d-none d-md-inline-block navbar-buttons mbr-section-btn\"><a class=\"btn btn-warning\" href=\"lien-he.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 12px;\"></span>\n                            <span>LIÊN HỆ</span></a></div>\n              </div>\n          </div>      \n        </div>             \n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://vietnambestplacestowork.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/vietnambestplacestowork-logo-94x60.png\" alt=\"Vietnam Best Places To Work\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Vietnam Best Places To Work</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"index.html#gioi-thieu\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">GIỚI THIỆU</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-742\"><a class=\"text-white text-primary dropdown-item\" href=\"index.html#phuong-phap\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Phương pháp<br></a></div></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">BẢNG XẾP HẠNG</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-562\"><a class=\"text-white text-primary dropdown-item\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Nơi làm việc tốt nhất Việt Nam</a><a class=\"text-white text-primary show dropdown-item\" href=\"top-50-thuong-hieu-nha-tuyen-dung-hap-dan-voi-sinh-vien-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Thương Hiệu Nhà Tuyển Dụng hấp dẫn với sinh viên Việt Nam</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://vietnambestplacestowork.com/goc-bao-chi/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">GÓC BÁO CHÍ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://event.anphabe.com/vietnambestplacestowork/2023/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">SỰ KIỆN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"diem-nhan.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DOANH NGHIỆP ĐIỂN HÌNH<br><br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"lien-he.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LIÊN HỆ</a></li></ul>\n                \n            </div>\n        </div>\n    </nav>\n\n</section>",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_cid": "tWdkxQ523q",
@@ -21518,7 +21518,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "25",
+        "order": "26",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2023-le-700.png"
       },
       "components": [
@@ -22699,7 +22699,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "26",
+        "order": "27",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2023-sme-700.png"
       },
       "components": [
@@ -23880,7 +23880,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "16",
+        "order": "17",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/eoc-2023-700.jpg"
       },
       "components": [
@@ -24742,7 +24742,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "21",
+        "order": "22",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/haw-2023-700.jpg"
       },
       "components": [
@@ -25604,7 +25604,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "22",
+        "order": "23",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/haw-2023-700.jpg"
       },
       "components": [
@@ -39412,6 +39412,842 @@
           "_isUserblock": true,
           "_cid": "tYLX92g7VP",
           "_anchor": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-b4",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "cau-hoi-thuong-gap.html": {
+      "settings": {
+        "title": "Câu hỏi thường gặp",
+        "order": "13",
+        "meta_descr": "Khảo sát nơi làm việc tốt nhất Việt Nam là gì? Từ năm 2013, Anphabe tự hào khởi xướng Khảo sát Nơi làm việc tốt nhất Việt Nam®, đây là khảo sát uy tín hàng đầu về Thương hiệu Nhà tuyển dụng (THNTD) thu hút hàng triệu lượt quan tâm, chia sẻ và gợi nhắc từ giới truyền thông báo chí và truyền hình, được tổ chức hàng năm bởi Anphabe.",
+        "socialSharingUrl": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/bg-cover-1440x774.png"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@sticky)": {
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "width": "100%",
+              ".navbar-dropdown": {
+                "position": "relative !important"
+              }
+            },
+            "& when (@sticky)": {
+              "z-index": "1000",
+              "width": "100%",
+              "& when not (@transparent)": {
+                "position": "relative",
+                "min-height": "60px"
+              },
+              "nav.navbar": {
+                "position": "fixed"
+              }
+            },
+            ".dropdown-item:before": {
+              "font-family": "Moririse2 !important",
+              "content": "'\\e966'",
+              "display": "inline-block",
+              "width": "0",
+              "position": "absolute",
+              "left": "1rem",
+              "top": "0.5rem",
+              "margin-right": "0.5rem",
+              "line-height": "1",
+              "font-size": "inherit",
+              "vertical-align": "middle",
+              "text-align": "center",
+              "overflow": "hidden",
+              "transform": "scale(0, 1)",
+              "transition": "all 0.25s ease-in-out"
+            },
+            ".dropdown-menu": {
+              "padding": "0"
+            },
+            ".dropdown-item": {
+              "border-bottom": "1px solid #e6e6e6",
+              "&:hover, &:focus": {
+                "background": "@primaryColor !important",
+                "color": "white !important"
+              }
+            },
+            ".nav-dropdown .link": {
+              "padding": "0 0.3em !important",
+              "margin": ".667em 0.5em !important",
+              "font-size": "14px"
+            },
+            ".nav-dropdown .link.dropdown-toggle::after": {
+              "margin-left": "0.5rem",
+              "margin-top": "0.2rem"
+            },
+            ".nav-link": {
+              "position": "relative",
+              "color": "white"
+            },
+            ".container": {
+              "display": "flex",
+              "margin": "auto"
+            },
+            ".iconfont-wrapper": {
+              "color": "@iconsColor !important",
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".navbar-caption": {
+              "padding-right": "4rem"
+            },
+            ".navbar-nav": {},
+            ".dropdown-menu, .navbar.opened": {
+              "background": "@menuBgColor !important"
+            },
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown-menu .dropdown-item:before": {
+                "display": "none"
+              },
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em 0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "border-bottom": "none",
+              "&:not(.navbar-short)": {
+                "border-bottom": "none"
+              },
+              "& when not (@transparent)": {
+                "background": "transparent"
+              },
+              "& when (@transparent)": {
+                "background": "rgba(red(@menuBgColor), green(@menuBgColor), blue(@menuBgColor), @opacity)"
+              },
+              "&.opened": {
+                "transition": "all .3s"
+              },
+              ".dropdown-item": {
+                "padding": ".5rem 1.8rem"
+              },
+              ".navbar-logo img": {
+                "width": "auto"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  },
+                  "@media (min-width: 992px)": {
+                    "&:not(.navbar-short) .navbar-collapse when (@showLogo)": {
+                      "max-height": "~\"calc(98.5vh - @{logoSize}rem)\""
+                    }
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-right": "0",
+                  "padding-top": "2px",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".nav-item .nav-link::before": {
+                  "display": "none"
+                },
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": "0.5rem",
+                    "margin-top": "0.2rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word",
+                  "padding-right": "2rem"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": "0",
+                  "margin-top": "2px",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "min-height": "60px",
+                ".navbar-unity": {
+                  "display": "none"
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active, .dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center",
+              "min-width": "170px"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "#ffffff",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "background-color": "#ffffff",
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding-bottom": "5px",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center"
+            },
+            ".icons-menu": {
+              "flex-wrap": "nowrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "0",
+              "padding-right": "1rem",
+              "padding-top": "2px",
+              "text-align": "center"
+            },
+            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              },
+              ".nav-item .nav-link:hover::before": {
+                "width": "175%",
+                "max-width": "calc(100% ~'+' 2rem)",
+                "left": "-1rem"
+              }
+            },
+            ".navbar .btn": {
+              "margin": "0",
+              "text-transform": "uppercase",
+              "color": "#000000 !important",
+              "&:hover": {
+                "color": "#000000 !important"
+              }
+            },
+            ".navbar .btn .mbr-iconfont-btn": {
+              "display": "inline-block",
+              "width": "18px",
+              "height": "18px",
+              "color": "#ffa800",
+              "font-size": "12px !important",
+              "font-weight": "700",
+              "padding": "3px 0px 0px 2px",
+              "background": "black",
+              "border-radius": "3px"
+            },
+            ".navbar-unity": {
+              "width": "100%",
+              "padding-top": "3px",
+              "border-bottom": "1px solid #8B8989",
+              "margin-bottom": "15px",
+              ".nav-link": {
+                "font-size": "12px"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Icons\" name=\"showIcons\" checked>\n        <select title=\"Amount\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Button\" name=\"showButtons\" checked>\n        <header>Styles</header>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"range\" title=\"Opacity\" name=\"opacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"transparent\">\n        <input type=\"color\" title=\"Color\" name=\"menuBgColor\" value=\"#000000\">\n    </mbr-parameters>\n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n\n\n         <div class=\"navbar-unity\">\n          <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n              <div class=\"icons-menu\" mbr-if=\"showIcons\">\n                  <a class=\"iconfont-wrapper\" href=\"https://www.facebook.com/vietnam100bestplacestowork\" target=\"_blank\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-youtube socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n                  <a class=\"iconfont-wrapper\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                      <span mbr-icon class=\"p-2 mbr-iconfont socicon-twitter socicon\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span>\n                  </a>\n              </div>\n              <div class=\"menu-contact justify-content-end align-items-start flex-grow-1 d-flex\">\n                  \n                    <div> <a class=\"nav-link link text-secondary display-7\" href=\"mailto:clientsolution@anphabe.com\"><span mbr-icon class=\"mbr-iconfont socicon-mail socicon\" style=\"color: rgb(255, 255, 255); fill: rgb(255, 255, 255); font-size: 13px;\"></span><span class=\"d-none d-lg-inline-block\">clientsolution@anphabe.com</span></a> </div> \n                      <div><a class=\"nav-link link text-secondary display-7\" href=\"tel:+842862682222\"><span mbr-icon class=\"mbr-iconfont mobi-mbri-phone mobi-mbri\" style=\"font-size: 13px; color: rgb(255, 255, 255); fill: rgb(255, 255, 255);\"></span><span class=\"d-none d-lg-inline-block\">(+84) 28 6268 2222</span></a></div>\n                  \n                    <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"d-none d-md-inline-block navbar-buttons mbr-section-btn\"><a class=\"btn btn-warning\" href=\"lien-he.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 12px;\"></span>\n                            <span>LIÊN HỆ</span></a></div>\n              </div>\n          </div>      \n        </div>             \n        <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n            <div class=\"navbar-brand\">\n                <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                    <a href=\"https://vietnambestplacestowork.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/vietnambestplacestowork-logo-94x60.png\" alt=\"Vietnam Best Places To Work\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                    </a>\n                </span>\n                <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-7\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Vietnam Best Places To Work</a></span>\n            </div>\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" data-bs-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n                <div class=\"hamburger\">\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                    <span></span>\n                </div>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"index.html#gioi-thieu\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\" aria-expanded=\"false\">GIỚI THIỆU</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-742\"><a class=\"text-white text-primary dropdown-item\" href=\"index.html#phuong-phap\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Phương pháp<br></a></div></li>\n                    <li class=\"nav-item dropdown\"><a class=\"nav-link link text-white text-primary dropdown-toggle\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\" data-bs-toggle=\"dropdown\" data-bs-auto-close=\"outside\">BẢNG XẾP HẠNG</a><div class=\"dropdown-menu\" aria-labelledby=\"dropdown-562\"><a class=\"text-white text-primary dropdown-item\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Nơi làm việc tốt nhất Việt Nam</a><a class=\"text-white text-primary show dropdown-item\" href=\"top-50-thuong-hieu-nha-tuyen-dung-hap-dan-voi-sinh-vien-viet-nam-2023.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">Thương Hiệu Nhà Tuyển Dụng hấp dẫn với sinh viên Việt Nam</a></div></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://vietnambestplacestowork.com/goc-bao-chi/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">GÓC BÁO CHÍ</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"https://event.anphabe.com/vietnambestplacestowork/2023/index.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\" target=\"_blank\">SỰ KIỆN</a></li><li class=\"nav-item\"><a class=\"nav-link link text-white text-primary\" href=\"diem-nhan.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">DOANH NGHIỆP ĐIỂN HÌNH<br><br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-white\" href=\"lien-he.html\" data-app-selector=\".nav-link,.dropdown-item\" data-app-placeholder=\"Type Text\">LIÊN HỆ</a></li></ul>\n                \n            </div>\n        </div>\n    </nav>\n\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_cid": "u5svTOvy4j",
+          "_anchor": "menu1-bs",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".btn": {
+              "font-size": "20px",
+              "color": "#000 !important",
+              "&:hover": {
+                "color": "#000 !important"
+              }
+            },
+            ".btn .mbr-iconfont-btn": {
+              "display": "inline-block",
+              "width": "22px",
+              "height": "22px",
+              "color": "#ffa800",
+              "font-size": "15px !important",
+              "font-weight": "700",
+              "padding": "4px 0px 0px 2px",
+              "background": "black",
+              "border-radius": "3px"
+            }
+          },
+          "_name": "menu1-fQIF0DefTd",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header1\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"7\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value>Left</option>\n            <option value=\"justify-content-center\" selected>Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/bg-cover-1440x774.png\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#353535\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">\n                        Header Subtitle\n                    </h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Mobirise Free Website Maker is perfect for non-techies and great for pro-coders for fast prototyping and small customers' projects.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3 mt-md-5\" mbr-if=\"showButtons\"><a class=\"btn btn-warning\" href=\"top-100-noi-lam-viec-tot-nhat-viet-nam-2022.html\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-arrow-next mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 12px;\"></span>XEM NGAY</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "u5svTP2usC",
+          "_anchor": "menu1-fQIF0DefTd-bt",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".card .card-header": {
+              "background-color": "transparent",
+              "margin-bottom": "0"
+            },
+            ".panel-title": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "space-between"
+            },
+            ".mbr-iconfont": {
+              "padding-left": "1rem",
+              "font-family": "'Moririse2' !important",
+              "font-size": "1.4rem !important",
+              "color": "@primaryColor"
+            },
+            ".panel-body, .card-header": {
+              "padding": "1rem 0"
+            },
+            ".panel-title-edit": {
+              "color": "#000000"
+            },
+            "@media (max-width: 991px)": {
+              ".plan": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".plan": {
+              "word-break": "break-word",
+              "background-color": "#ffffff",
+              "box-shadow": "0px 6px 10px -5px rgba(0, 0, 0, 0.3)",
+              "height": "100%"
+            },
+            ".plan-header": {
+              "padding-top": "1rem",
+              "padding-bottom": "1rem",
+              "padding-left": "1rem",
+              "padding-right": "1rem",
+              "background-color": "#093d5a",
+              "min-height": "10vh"
+            },
+            ".plan-title": {
+              "color": "#ffffff"
+            },
+            ".plan .list-group-item": {
+              "position": "relative",
+              "justify-content": "center",
+              "border": "0",
+              "padding": "1.5rem 1rem"
+            },
+            ".plan .list-group-item::after": {
+              "position": "absolute",
+              "bottom": "1px",
+              "left": "25%",
+              "width": "50%",
+              "height": "1px",
+              "content": "\"\"",
+              "background-color": "rgba(0, 0, 0, 0.1)"
+            },
+            ".display-7": {
+              "font-family": "'Mulish', sans-serif",
+              "font-size": "1.1rem",
+              "line-height": "1.5"
+            }
+          },
+          "_name": "content17",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content17\" group=\"Content\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"9\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <select title=\"Amount\" name=\"cardAmount\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\">6</option>\n             <option value=\"7\">7</option>\n             <option value=\"8\">8</option>\n             <option value=\"9\" selected>9</option>\n\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    \n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        \n            <div class=\"row justify-content-center\">\n                <div class=\"col-12 col-md-{{textWidth}}\">\n                    <div class=\"section-head align-center mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                        <h3 class=\"mbr-section-title mb-0 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                            <b>Câu hỏi thường gặp</b></h3>\n                        <h4 class=\"mbr-section-subtitle mt-2 mb-0 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\">\n                            Subtitle</h4>\n                    </div>\n                    \n                    <div id=\"bootstrap-toggle\" class=\"toggle-panel accordionStyles tab-content\">\n                        <div class=\"card mb-3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Khảo sát Nơi Làm Việc Tốt Nhất Việt Nam® là gì?</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Từ năm 2013, Anphabe tự hào khởi xướng Khảo sát Nơi làm việc tốt nhất Việt Nam®, đây là khảo sát uy tín hàng đầu về Thương hiệu Nhà tuyển dụng (THNTD) thu hút hàng triệu lượt quan tâm, chia sẻ và gợi nhắc từ giới truyền thông báo chí và truyền hình, được tổ chức hàng năm bởi Anphabe.\n<br>\n<br>Chương trình Khảo sát được thực hiện hoàn toàn độc lập, ghi nhận những ý kiến đánh giá khách quan từ người đi làm, nhằm đo lường sức khỏe Thương hiệu Nhà tuyển dụng của hơn 700 doanh nghiệp hàng đầu, thuộc gần 20 nhóm ngành nghề khác nhau tại Việt Nam. Chương trình được bảo trợ bởi Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI). Mô hình và phương pháp đánh giá được kiểm chứng bởi đơn vị thứ ba là công ty nghiên cứu thị trường Intage Việt Nam để đảm bảo tính công bằng và khách quan của kết quả.\n<br>\n<br>Hằng năm, khảo sát thu hút đông đảo người đi làm trên toàn quốc tham gia và nhờ đó luôn đưa ra được những phân tích giá trị về xu hướng người đi làm và môi trường làm việc cho doanh nghiêp. Cho tới nay, các kết quả khảo sát luôn được xem là nguồn thông tin giá trị và chuyên nghiệp cho các CEO và lãnh đạo nhân sự định hướng chiến lược nhân tài.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Vì sao doanh nghiệp nên tham gia khảo sát Nơi Làm Việc Tốt Nhất Việt Nam®?</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n\n                            </div>\n                            <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Khảo sát <b>Nơi làm việc tốt nhất Việt Nam®</b> tập trung nghiên cứu và đo lường các xu hướng mới nhất về mong muốn và kỳ vọng của người đi làm về môi trường làm việc. Đồng thời, đánh giá sức khỏe Thương hiệu Nhà tuyển dụng của doanh nghiệp (nội bộ &amp; bên ngoài) khi tham gia khảo sát.\n<br>\n<br>Từ kết quả khảo sát, Anphabe đưa ra các chỉ số THNTD tiêu chuẩn cho tất cả các ngành nghề, giúp doanh nghiệp hoạch định chiến lược Thu hút nhân tài &amp; Gắn kết nhân viên phù hợp và hiệu quả.\n<br>\n<br>Do đó, bên cạnh cơ hội gia tăng mức độ nhận biết Thương hiệu Nhà tuyển dụng của công ty đến rộng rãi người đi làm trên cả nước, doanh nghiệp còn có thêm nhiều lợi thế trong phân tích và cập nhật xu hướng nhân tài mới nhất, cũng như củng cố nội lực, khẳng định vị thế, tạo đà tăng trưởng trong tương lai.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Đối tượng tham gia khảo sát Nơi Làm Việc Tốt Nhất Việt Nam®?</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Chương trình Khảo sát <b>Nơi làm việc tốt nhất Việt Nam®</b> được thực hiện hoàn toàn độc lập, ghi nhận những ý kiến đánh giá khách quan từ người đi làm có ít nhất 1 năm kinh nghiệm, thuộc gần <b>20 nhóm ngành nghề</b> khác nhau tại Việt Nam.\n<br>\n<br>Bên cạnh đó, từ 2020, khảo sát cũng mở rộng đối tượng tham gia đến nhóm sinh viên tại các trường Đại học/Cao đẳng trên cả nước, đây là nguồn nhân lực tương lai quan trọng mà doanh nghiệp nào cũng quan tâm.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Công ty tham gia khảo sát thì có chắc chắn vào Bảng xếp hạng Nơi Làm Việc Tốt Nhất Việt Nam® không?</b></h6>\n                                    <span class=\"sign mbr-iconfont mbri-arrow-down\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Khảo sát <b>Nơi làm việc tốt nhất Việt Nam®</b> được thực hiện hoàn toàn khách quan, do người đi làm bình chọn, phản ánh đúng chỉ số hấp dẫn Sức khỏe Thương hiệu Nhà tuyển dụng của công ty ở thời điểm hiện tại. Khi tham gia khảo sát, công ty sẽ có được các chỉ số phân tích quan trọng, từ đó biết được mình đang ở đâu trên thị trường và trong ngành, qua đó có những hoạch định chiến lược Thu hút nhân tài &amp; Gắn kết nhân viên phù hợp, hiệu quả.\n<br>\n<br>Kết quả xếp hạng của khảo sát được tham vấn độc lập từ đơn vị thứ ba là công ty nghiên cứu thị trường <b>Intage Việt Nam</b>. Vì thế <b>không có bất kì điều chắc chắn</b> nào cho việc công ty tham gia khảo sát thì sẽ vào Bảng xếp hạng 100 Nơi làm việc tốt nhất Việt Nam.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                   <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Công ty như thế nào thì đủ điều kiện tham gia khảo sát Nơi Làm Việc Tốt Nhất Việt Nam®?</b></h6>\n                                        <span class=\"mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Các điều kiện cơ bản đầu tiên:</p>\n                                    <ul style=\"mbr-fonts-style panel-text display-7\">\n                                      <li>Công ty có ít nhất 3 năm hoạt động tại Việt Nam.</li>\n                                      <li>Có quy mô ít nhất 100 người (trừ 1 số công ty nước ngoài ngành dịch vụ có Văn phòng đại diện ở Việt Nam).</li>\n                                      <li>Hiện tại không có các vấn đề về pháp lý.</li>\n                                    </ul>\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Bắt đầu từ năm 2023 nhằm tạo sân chơi toàn diện hơn cho các Doanh Nghiệp, bảng xếp hạng 100 Nơi làm việc tốt nhất Việt Nam® được chia làm 2 sân chơi, Anphabe sẽ liên hệ và tư vấn cụ thể với từng đối tượng doanh nghiệp. Cụ thể:</p>\n                                    <ul style=\"mbr-fonts-style panel-text display-7\">\n                                      <li>Top 100 Nơi làm việc tốt nhất Việt Nam® – Doanh nghiệp lớn</li>\n                                      <li>Top 100 Nơi làm việc tốt nhất Việt Nam® – Doanh nghiệp vừa<p></p></li>\n                                    </ul>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                    <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Các lựa chọn đăng ký và chi phí tham gia khảo sát Nơi Làm Việc Tốt Nhất Việt Nam®?</b></h6>\n                                    <span class=\"mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">\n                                       Tùy vào nhu cầu, doanh nghiệp có thể lựa chọn các gói đăng ký tham gia khảo sát Nơi làm việc tốt nhất Việt Nam® thuộc các đề xuất sau:</p>\n                                    <div class=\"row justify-content-center\">\n                                        <div class=\"col-12 col-md-6 align-center col-lg-3\">\n                                            <div class=\"plan\">\n                                                <div class=\"plan-header\">\n                                                    <h6 class=\"plan-title mbr-fonts-style mb-3 display-7\">\n                                                        <strong>THAM GIA KHẢO SÁT</strong></h6>\n                                                </div>\n                                                <div class=\"plan-body\">\n                                                    <div class=\"plan-list mb-4\">\n                                                        <ul class=\"list-group mbr-fonts-style list-group-flush display-7\">\n                                                            <li class=\"list-group-item\">Đẩy mạnh sức hấp dẫn Thương hiệu nhà tuyển dụng (THNTD)</li>\n                                                            <li class=\"list-group-item\">Được cập nhật xu hướng mới nhất trên thị trường thông qua hội nghị</li>\n                                                            <li class=\"list-group-item\">Cơ hội vinh danh trong Top 100 NLVTNVN toàn thị trường &amp; theo ngành</li>\n                                                        </ul>\n                                                    </div>\n                                                    \n                                                </div>\n                                            </div>\n                                        </div>\n                                        <div class=\"col-12 col-md-6 align-center col-lg-3\">\n                                            <div class=\"plan\">\n                                                <div class=\"plan-header\">\n                                                    <h6 class=\"plan-title mbr-fonts-style mb-3 display-7\">\n                                                        <strong>BÁO CÁO XU HƯỚNG</strong></h6>\n                                                </div>\n                                                <div class=\"plan-body\">\n                                                    <div class=\"plan-list mb-4\">\n                                                        <ul class=\"list-group mbr-fonts-style list-group-flush display-7\">\n                                                            <li class=\"list-group-item\">Xu hướng nhân tài, Nguồn nhân lực &amp; Môi trường làm việc</li>\n                                                            <li class=\"list-group-item\">Động cơ nghề nghiệp của người đi làm trong ngành</li>\n                                                            <li class=\"list-group-item\">Mục tiêu nghề nghiệp của người đi làm trong ngành và toàn thị trường</li>\n                                                        </ul>\n                                                    </div>\n                                                    \n                                                </div>\n                                            </div>\n                                        </div>\n                                        <div class=\"col-12 col-md-6 align-center col-lg-3\">\n                                            <div class=\"plan\">\n                                                <div class=\"plan-header\">\n                                                    <h6 class=\"plan-title mbr-fonts-style mb-3 display-7\">\n                                                        <strong>BÁO CÁO SỨC KHỎE THNTD</strong></h6>\n                                                </div>\n                                                <div class=\"plan-body\">\n                                                    <div class=\"plan-list mb-4\">\n                                                        <ul class=\"list-group mbr-fonts-style list-group-flush display-7\">\n                                                            <li class=\"list-group-item\">Sức hấp dẫn &amp; hình ảnh THNTD, Điểm mạnh &amp; Điểm yếu của công ty</li>\n                                                            <li class=\"list-group-item\">So sánh với 3-4 công ty đối thủ (nếu có)</li>\n                                                            <li class=\"list-group-item\">Tư vấn cải tiến sức khỏe THNTD</li>\n                                                        </ul>\n                                                    </div>\n                                                    \n                                                </div>\n                                            </div>\n                                        </div>\n                                        <div class=\"col-12 col-md-6 align-center col-lg-3\">\n                                            <div class=\"plan\">\n                                                <div class=\"plan-header\">\n                                                    <h6 class=\"plan-title mbr-fonts-style mb-3 display-7\">\n                                                        <strong>BÁO CÁO NGUỒN NHÂN LỰC HẠNH PHÚC</strong></h6>\n                                                </div>\n                                                <div class=\"plan-body\">\n                                                    <div class=\"plan-list mb-4\">\n                                                        <ul class=\"list-group mbr-fonts-style list-group-flush display-7\">\n                                                            <li class=\"list-group-item\">Bức tranh Nguồn nhân lực hạnh phúc theo nhóm nhân viên</li>\n                                                            <li class=\"list-group-item\">Đánh giá toàn diện 15-24 nhóm điều kiện hạnh phúc</li>\n                                                            <li class=\"list-group-item\">Tư vấn cơ hội tối đa hóa hiệu suất và lòng trung thành của nhân viên</li>\n                                                        </ul>\n                                                    </div>\n                                                    \n                                                </div>\n                                            </div>\n                                        </div>\n                                    </div>\n                                    <br>\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\"> Để tư vấn cụ thể anh chị vui lòng điền thông tin tại link đăng ký hoặc hotline 028 6268 222</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 6\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse7\" aria-expanded=\"false\" aria-controls=\"collapse7\">\n                                   <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Khảo sát Nơi làm việc tốt nhất Việt Nam® được thực hiện trong thời gian nào?</b></h6>\n                                        <span class=\"mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse7\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Thời gian thực hiện chương trình khảo sát <b>Nơi làm việc tốt nhất Việt Nam®</b> sẽ được công bố cụ thể trên trang truyền thông chính thức của Chúng tôi. Năm 2023, khảo sát được thực hiện từ tháng 5 đến tháng 8 năm 2023. Kết quả phân tích của khảo sát dự kiến sẽ được công bố vào tháng 10/2023 trong hội nghị <b>Nơi làm việc tốt nhất Việt Nam® 2023</b>.\n<br>\n<br>Doanh nghiệp có nhu cầu đánh giá sức khỏe THNTD vui lòng đăng ký trước tháng 5 năm 2023. Anh chị vui lòng điền thông tin tại link đăng ký hoặc hotline <b>028 6268 222</b>.</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 7\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse8\" aria-expanded=\"false\" aria-controls=\"collapse8\">\n                                   <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Sau khi kết thúc khảo sát, doanh nghiệp sẽ nhận được nhận báo cáo khi nào?</b></h6>\n                                        <span class=\"mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse8\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Các báo cáo của Khảo sát Nơi làm việc tốt nhất Việt Nam® sẽ được gửi đến quý doanh nghiệp sau khi kết thúc dự án khảo sát (báo cáo của khảo sát Nơi làm việc tốt nhất Việt Nam® 2023 dự kiến sẽ được gửi đến quý doanh nghiệp vào tháng 11 hoặc 12 năm 2023).</p>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"card mb-3\" mbr-if=\"cardAmount > 8\">\n                            <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                                <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse9\" aria-expanded=\"false\" aria-controls=\"collapse9\">\n                                   <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-title-edit\"><b>Những điểm nổi bật trong báo cáo Nơi làm việc tốt nhất Việt Nam® là gì?</b></h6>\n                                        <span class=\"mbr-iconfont mobi-mbri-arrow-down mobi-mbri\"></span>\n                                </a>\n                            </div>\n                            <div id=\"collapse9\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\">\n                                <div class=\"panel-body\">\n                                    <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Chương trình Khảo sát <b>Nơi làm việc tốt nhất Việt Nam®</b> cung cấp nhiều hình thức báo cáo đễ hỗ trợ các mục tiêu khác nhau của doanh nghiệp, điển hình:</p>\n<ul class=\"mbr-fonts-style panel-text display-7\">\n<li><b>Báo cáo Đo lường sức khỏe Thương hiệu nhà tuyển dụng</b> sẽ giúp doanh nghiệp kiểm tra tổng quát sức khỏe thương hiệu nhà tuyển dụng của doanh nghiệp mình trong mắt nhân tài ngành, bao gồm 5 giai đoạn hấp dẫn nhân tài và các hình ảnh được ghi nhận tích cực 6 nhóm yếu tố về Môi trường làm việc: Tưởng thưởng, Cơ hội phát triển, Văn hóa &amp; Môi trường, Chất lượng công việc - cuộc sống, Lãnh đạo &amp; Quản lý, Danh tiếng công ty.\n<br>\n<br>Ngoài ra Anphabe còn giúp các doanh nghiệp so sánh với các công ty cùng ngành mình đang làm tốt &amp; chưa tốt ở điểm nào để có thể đưa ra giải pháp giúp doanh nghiệp hấp dẫn hơn trong mắt người đi làm. Tham khảo thêm\n<br>\n</li>\n<br><li><b>Báo cáo xu hướng nhân tài ngành</b> sẽ cung cấp cho Quý doanh nghiệp cái nhìn tổng quan về các xu hướng nổi bật về người đi làm và môi trường làm việc: ví dụ kỳ vọng của người đi làm, tiêu chí lựa chọn môi trường làm việc, lương thưởng &amp; phúc lợi nhân tài trong ngành đang hướng tới, v.v. Đồng thời báo cáo sẽ cập nhật các xu hướng mới trong năm, nhằm giúp quý doanh nghiệp giải mã các yếu tố quan trọng trong Thu hút, Tạo động lực và Giữ chân nhân tài để định hình chiến lược nhân sự hiệu quả.\n</li>\n</ul>\n<p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-7\" data-app-selector=\".panel-text\">Nếu Quý doanh nghiệp có nhu cầu báo cáo khác 2 hình thức trên, anh chị vui lòng điền thông tin tại link đăng ký hoặc hotline 028 6268 222.</p>\n                                </div>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n</section>",
+          "_cid": "u5sw3svYyZ",
+          "_anchor": "content17-bw",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            ".media-wrap": {
+              "padding": "0",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "1rem"
+              }
+            },
+            ".social-row": {
+              "display": "flex",
+              "flex-wrap": "wrap"
+            },
+            ".list": {
+              "list-style": "none",
+              "padding-left": "0",
+              "line-height": "1.3em",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "2rem"
+              },
+              "@media (min-width: 992px)": {
+                "margin-bottom": "0rem"
+              },
+              "color": "#ffffff"
+            },
+            ".mbr-text": {
+              "color": "#bbbbbb"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "border-radius": "50%",
+              "background-color": "white",
+              "margin-right": "0.5rem",
+              "margin-bottom": "1rem",
+              "padding": "0.5rem",
+              "height": "2.5rem",
+              "width": "2.5rem"
+            },
+            ".mbr-iconfont": {
+              "color": "black"
+            },
+            "@media (max-width: 991px)": {
+              "div > *:last-child": {
+                "margin-top": "0 !important"
+              }
+            },
+            ".copyright": {
+              "text-align": "left"
+            },
+            ".footer-title": {
+              "border-bottom": "1px solid #bbbbbb",
+              "line-height": "1.6"
+            },
+            ".copyright-style": {
+              "font-size": "0.8rem"
+            },
+            ".hotline": {
+              "font-weight": "bold",
+              "color": "red",
+              "font-size": "1rem"
+            },
+            "@media (max-width: 767px)": {
+              ".row": {
+                "text-align": "center",
+                "& > div": {
+                  "margin": "auto"
+                }
+              },
+              ".social-row": {
+                "justify-content": "center"
+              },
+              ".media-wrap img": {
+                "width": "auto"
+              },
+              ".row > div": {
+                "margin-bottom": "1rem",
+                "text-align": "left",
+                "padding-left": "2rem"
+              },
+              ".footer-title": {
+                "text-align": "left"
+              },
+              "padding-top": "(@paddingTop * 0.5rem)",
+              "padding-bottom": "(@paddingTop * 0.5rem)"
+            },
+            ".bg-facebook when (@facebook)": {
+              "background": "#1778f2",
+              "color": "contrast(#1778f2)",
+              "&:hover": {
+                "background": "darken(#1778f2, 10)"
+              }
+            },
+            ".bg-twitter when (@twitter)": {
+              "background": "#1da1f2",
+              "color": "contrast(#1da1f2)",
+              "&:hover": {
+                "background": "darken(#1da1f2, 10)"
+              }
+            },
+            ".bg-pinterest when (@pinterest)": {
+              "background": "#e60023",
+              "color": "contrast(#e60023)",
+              "&:hover": {
+                "background": "darken(#e60023, 10)"
+              }
+            },
+            ".bg-instagram when (@instagram)": {
+              "background": "#f00075",
+              "color": "contrast(#f00075)",
+              "&:hover": {
+                "background": "darken(#f00075, 10)"
+              }
+            },
+            ".bg-slack when (@slack)": {
+              "background": "#4a154b",
+              "color": "contrast(#4a154b)",
+              "&:hover": {
+                "background": "darken(#4a154b, 10)"
+              }
+            },
+            ".bg-linkedin when (@linkedin)": {
+              "background": "#0077b5",
+              "color": "contrast(#0077b5)",
+              "&:hover": {
+                "background": "darken(#0077b5, 10)"
+              }
+            },
+            ".bg-behance when (@behance)": {
+              "background": "#0056ff",
+              "color": "contrast(#0056ff)",
+              "&:hover": {
+                "background": "darken(#0056ff, 10)"
+              }
+            },
+            ".bg-dribbble when (@dribbble)": {
+              "background": "#ea4c89",
+              "color": "contrast(#ea4c89)",
+              "&:hover": {
+                "background": "darken(#ea4c89, 10)"
+              }
+            },
+            ".bg-tiktok when (@tiktok)": {
+              "background": "#000000",
+              "color": "contrast(#000000)",
+              "&:hover": {
+                "background": "darken(#000000, 10)"
+              }
+            },
+            ".bg-youtube when (@youtube)": {
+              "background": "#ff0000",
+              "color": "contrast(#ff0000)",
+              "&:hover": {
+                "background": "darken(#ff0000, 10)"
+              }
+            },
+            ".bg-twitch when (@twitch)": {
+              "background": "#9146ff",
+              "color": "contrast(#9146ff)",
+              "&:hover": {
+                "background": "darken(#9146ff, 10)"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "font-size": "20px",
+              "border-radius": "50%",
+              "width": "35px",
+              "height": "35px",
+              "line-height": "35px",
+              "text-align": "center",
+              "transition": "all 0.3s ease-in-out"
+            },
+            "& when (@squareIcons)": {
+              ".iconfont-wrapper": {
+                "border-radius": "0 !important"
+              }
+            },
+            "[class^=\"socicon-\"]:before, [class*=\" socicon-\"]:before": {
+              "line-height": "35px",
+              "padding": ".4rem"
+            },
+            ".m-2": {
+              "margin": "0.2rem!important"
+            },
+            ".text-info": {
+              "color": "#000000"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer4\" group=\"Footers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" global once=\"footers\" mbr-class=\"{\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Logo Size\" name=\"logoSize\" min=\"1\" max=\"3\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\" checked>\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"4\" step=\"1\" value=\"4\" condition=\"showSocial\">\n        <input type=\"checkbox\" title=\"Copyright\" name=\"showCopyright\" checked>        \n        <input type=\"checkbox\" title=\"Square Icons\" name=\"squareIcons\">\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n        <input type=\"checkbox\" title=\"Instagram\" name=\"instagram\" checked>\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Slack\" name=\"slack\">\n        <input type=\"checkbox\" title=\"Linkedin\" name=\"linkedin\" checked>\n        <input type=\"checkbox\" title=\"Behance\" name=\"behance\">\n        <input type=\"checkbox\" title=\"Dribbble\" name=\"dribbble\">\n        <input type=\"checkbox\" title=\"Tiktok\" name=\"tiktok\">\n        <input type=\"checkbox\" title=\"Youtube\" name=\"youtube\" checked>\n        <input type=\"checkbox\" title=\"Twitch\" name=\"twitch\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value>\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row mbr-white\">\n            <div class=\"col-12 col-lg-4\">\n                <div class=\"media-wrap col-md-{{4*logoSize}} col-12\">                    \n                        <a href=\"https://www.anphabe.com\"><img src=\"@PROJECT_PATH@/assets/images/logo-anphabe.png\" style=\"width:auto;\" alt=\"Anphabe\"></a>                    \n                </div>\n                <p class=\"mbr-text mt-3 mbr-fonts-style copyright align-center copyright-style\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright\" data-app-placeholder=\"Type Text\">\n                    Tầng 6, tòa nhà Packsimex<br>\n                    52 Đông Du, Phường Bến Nghé, Quận 1, Tp.HCM</p>\n                <p class=\"mbr-text mt-3 mb-2 mbr-fonts-style copyright align-center copyright-style mt-3\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">Hotline: <span class=\"hotline\"><a href=\"tel:+842862682222\" class=\"text-info\">(+84) 28 6268 2222</a></span></p>                \n                <div class=\"social-list\">  \n                    <a class=\"iconfont-wrapper bg-linkedin m-2\" href=\"https://www.linkedin.com/company/anphabe.com/\" target=\"_blank\" mbr-if=\"linkedin\">\n                        <span mbr-icon class=\"socicon-linkedin socicon\"></span>\n                    </a> \n                    <a class=\"iconfont-wrapper bg-facebook m-2 \" target=\"_blank\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/vietnam100bestplacestowork\" mbr-if=\"facebook\">\n                        <span mbr-icon class=\"socicon-facebook socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper bg-youtube m-2\" href=\"https://www.youtube.com/anphabevideo\" target=\"_blank\" mbr-if=\"youtube\">\n                        <span mbr-icon class=\"socicon-youtube socicon\"></span>\n                    </a>\n                    <a class=\"iconfont-wrapper bg-twitter m-2\" href=\"https://twitter.com/anphabe\" target=\"_blank\" mbr-if=\"twitter\">\n                        <span mbr-icon class=\"socicon-twitter socicon\"></span>\n                    </a>   \n                </div>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-2 padding-footer\">\n                <h5 mbr-text class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><b>Về Anphabe</b></h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/\" class=\"text-white text-primary\">Giới thiệu</a></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/discussions/questions-answers\" class=\"text-white text-primary\" style=\"font-size: 1rem;\">Tài nguyên</a><br></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/lien-he.html \" class=\"text-white text-primary\" style=\"font-size: 1rem;\">Liên hệ</a><br></li>\n                    <li class=\"mbr-text item-wrap\"></li>\n                  \n                </ul>\n            </div>            \n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Giải pháp</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/giai-phap-linkedin-talent-solutions.html \" class=\"text-white text-primary\" style=\"font-size: 1rem;\">LinkedIn Talent Solutions</a><br></li><a href=\"giai-phap-linkedin-talent-solutions.html\" class=\"text-primary\">\n                    </a><li class=\"mbr-text item-wrap\"><a href=\"https://www.anphabe.com/vi/giai-phap-workplace-from-meta.html \" class=\"text-white text-primary\">Workplace from Meta</a></li><a href=\"giai-phap-workplace-from-meta.html\" class=\"text-primary\">\n                    </a><li class=\"mbr-text item-wrap\"><br></li><li class=\"mbr-text item-wrap\"><br></li>\n                </ul>\n            </div>\n            <div class=\"col-12 col-md-6 col-lg-3\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-3 footer-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                    <b>Giải thưởng</b>\n                </h5>\n                <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a href=\"index.html\" class=\"text-white text-primary\">100 Nơi Làm Việc Tốt Nhất Việt Nam</a><sup>®</sup></li>\n                    <li class=\"mbr-text item-wrap\"><a href=\"https://vietnamexcellence.vn/\" class=\"text-white text-primary\">Vietnam Excellence</a><sup>®<sup></sup></sup></li>\n                </ul>\n            </div>            \n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "u5svTQZusO",
+          "_anchor": "footer4-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-tc7eaxdrmz-bv",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
