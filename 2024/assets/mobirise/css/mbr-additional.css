@@ -2054,7 +2054,7 @@ a {
   font-weight: bold;
 }
 .cid-tCGmITTl4z {
-  background-image: url("../../../assets/images/banner-cover-thong-tin-qua-tang-3.png");
+  background-image: url("../../../assets/images/banner-cover-thong-tin-qua-tang-4.png");
   min-height: 66vh;
 }
 @media (max-width: 768px) {
@@ -2136,6 +2136,12 @@ a {
   .cid-tCGHfSHTH6 .text-wrapper {
     margin-top: 2.5rem;
   }
+}
+.cid-tCGHfSHTH6 a.text-primary:link,
+.cid-tCGHfSHTH6 a.text-primary:hover,
+.cid-tCGHfSHTH6 a.text-primary:visited,
+.cid-tCGHfSHTH6 a.text-primary:active {
+  color: #087096!important;
 }
 .cid-tCGHgrWxPJ {
   padding-top: 0rem;
