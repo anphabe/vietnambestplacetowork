@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2024",
-    "currentPage": "index.html",
+    "currentPage": "lien-he.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -17141,7 +17141,8 @@
         "footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>",
         "html_before": "",
         "order": "16",
-        "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2022-700.jpg"
+        "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/vietnamese-attractive-employers-2022-700.jpg",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-vnbptw-2024.jpg"
       },
       "components": [
         {
