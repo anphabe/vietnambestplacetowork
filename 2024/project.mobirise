@@ -1263,6 +1263,11 @@
             ".btn-primary, .btn-primary:active": {
               "color": "#141414!important",
               "font-weight": "bold"
+            },
+            "@media (max-width: 768px)": {
+              ".py-4": {
+                "max-width": "100%!important"
+              }
             }
           },
           "_name": "gallery1",

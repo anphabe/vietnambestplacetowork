@@ -1598,6 +1598,11 @@ a {
   color: #141414!important;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .cid-tCCHpURIIZ .py-4 {
+    max-width: 100%!important;
+  }
+}
 .cid-tCCHHBd7tm {
   background-image: url("../../../assets/images/for-recruiting-agencies.jpg");
 }
