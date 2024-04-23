@@ -1422,6 +1422,11 @@ a {
 .cid-tCGhtojEvr .mt-5 {
   margin-top: 3.5rem;
 }
+@media (max-width: 768px) {
+  .cid-tCGhtojEvr .mt-5 {
+    margin-top: 1rem!important;
+  }
+}
 .cid-tCCCgy7H2M {
   padding-top: 4rem;
   padding-bottom: 4rem;
