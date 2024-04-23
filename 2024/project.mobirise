@@ -804,6 +804,16 @@
               ".rsfont": {
                 "font-size": "1.75rem"
               }
+            },
+            "@media (min-width: 768px) and (max-width: 992px)": {
+              ".item-content": {
+                "bottom": "105px",
+                "height": "50%",
+                "padding": "0 1.5rem"
+              },
+              ".caption-gift": {
+                "font-size": "1.75rem"
+              }
             }
           },
           "_name": "gallery3",
@@ -1032,6 +1042,11 @@
               ".item-content-2": {
                 "bottom": "352px",
                 "height": "30%"
+              }
+            },
+            "@media (min-width: 768px) and (max-width: 992px)": {
+              ".item-content": {
+                "padding": "0 1.5rem"
               }
             }
           },

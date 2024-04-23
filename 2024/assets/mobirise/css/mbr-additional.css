@@ -1283,6 +1283,16 @@ a {
     font-size: 1.75rem;
   }
 }
+@media (min-width: 768px) and (max-width: 992px) {
+  .cid-tCCri7iZIm .item-content {
+    bottom: 105px;
+    height: 50%;
+    padding: 0 1.5rem;
+  }
+  .cid-tCCri7iZIm .caption-gift {
+    font-size: 1.75rem;
+  }
+}
 .cid-tCGhtojEvr {
   padding-top: 1rem;
   padding-bottom: 0rem;
@@ -1448,6 +1458,11 @@ a {
   .cid-tCGhtojEvr .item-content-2 {
     bottom: 352px;
     height: 30%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .cid-tCGhtojEvr .item-content {
+    padding: 0 1.5rem;
   }
 }
 .cid-tCCCgy7H2M {
