@@ -1266,7 +1266,7 @@
             },
             "@media (max-width: 768px)": {
               ".py-4": {
-                "max-width": "100%!important"
+                "max-width": "33.33%!important"
               }
             }
           },
