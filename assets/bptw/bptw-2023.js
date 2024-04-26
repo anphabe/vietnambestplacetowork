@@ -150,7 +150,7 @@
         let industry = $('#select_industry').val();
         
 
-        console.log("debug", data, industry);
+       // console.log("debug", data, industry);
         if($('#select_year').val() == 2023) {
 
             if( ($('#award').val() == 'top100'  || $('#award').val() == 'top100sme' ) && !industry) {
@@ -228,21 +228,23 @@
         else {
             dataURL = dataURL.replace('{award}', award);
         }
-        console.log(dataURL);
+        //console.log(dataURL);
         return dataURL;
     }
 
     $(document).ready(function () {
-        getData(getDataURL());
-
-        $("#select_industry").change(function () {
+        if($("#award").length > 0 && $("#select_year").length > 0) {
             getData(getDataURL());
-        });
 
-        $('#select_year').change(function () {
-            let page = 'top-100-noi-lam-viec-tot-nhat-viet-nam-' + $('#select_year').val() + '.html';
-            window.location.href = page;
-        });
+            $("#select_industry").change(function () {
+                getData(getDataURL());
+            });
+
+            $('#select_year').change(function () {
+                let page = 'top-100-noi-lam-viec-tot-nhat-viet-nam-' + $('#select_year').val() + '.html';
+                window.location.href = page;
+            });
+        }
     });
 
     function remove_vn_character(input) {
