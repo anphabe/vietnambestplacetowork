@@ -1532,6 +1532,16 @@ a {
     padding: 1.5rem;
   }
 }
+.cid-tCCCgy7H2M .card {
+  transition: transform 0.5s ease;
+}
+.cid-tCCCgy7H2M .card:hover {
+  transform: translateY(-30px);
+  transition: 0.5s ease;
+}
+.cid-tCCCgy7H2M .card:hover .card-box {
+  background: yellowgreen;
+}
 .cid-tCCHpURIIZ {
   padding-top: 5rem;
   padding-bottom: 6rem;
