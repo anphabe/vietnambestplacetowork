@@ -12599,11 +12599,10 @@
       "settings": {
         "title": "Hành trình phát triển sự nghiệp bền vững tại AEON Việt Nam",
         "order": "2",
-        "header_custom": "",
-        "socialSharingUrl": "",
+        "header_custom": "<meta property=\"og:site_name\" content=\"https://vietnambestplacestowork.com/\"/>\n<meta property=\"og:rich_attachment\" content=\"Hành trình phát triển sự nghiệp bền vững tại AEON Việt Nam\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://vietnambestplacestowork.com/diem-nhan/hanh-trinh-phat-trien-su-nghiep-ben-vung-tai-aeon-vietnam.html\"/>\n<meta property=\"og:image\" content=\"https://vietnambestplacestowork.com/diem-nhan/assets/images/hanh-trinh-phat-trien-su-nghiep-ben-vung-tai-aeon-vietnam-meta.png\">",
+        "socialSharingUrl": "https://vietnambestplacestowork.com/diem-nhan/assets/images/hanh-trinh-phat-trien-su-nghiep-ben-vung-tai-aeon-vietnam-meta.png",
         "footer_custom": "",
-        "meta_descr": "Là một trong những nhà bán lẻ hàng đầu Việt Nam, AEON Việt Nam luôn tiên phong trong việc xây dựng môi trường làm việc hạnh phúc, mang lại sự nghiệp bền vững cho nhân viên. Với triết lý \"Nuôi dưỡng chất riêng, tỏa sắc sự nghiệp\", AEON Việt Nam đã và đang tạo dựng một \"khu vườn sự nghiệp\" lý tưởng, nơi mỗi cá nhân được phát triển trọn vẹn và tỏa sáng.",
-        "meta_image": "@PROJECT_PATH@/assets/images/aeondn-1.png"
+        "meta_descr": "Là một trong những nhà bán lẻ hàng đầu Việt Nam, AEON Việt Nam luôn tiên phong trong việc xây dựng môi trường làm việc hạnh phúc, mang lại sự nghiệp bền vững cho nhân viên. Với triết lý \"Nuôi dưỡng chất riêng, tỏa sắc sự nghiệp\", AEON Việt Nam đã và đang tạo dựng một \"khu vườn sự nghiệp\" lý tưởng, nơi mỗi cá nhân được phát triển trọn vẹn và tỏa sáng."
       },
       "components": [
         {
