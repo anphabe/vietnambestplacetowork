@@ -9716,6 +9716,12 @@ a {
 .cid-ufmaWa9uPk .no-padd-text {
   padding-top: 0;
 }
+.cid-ufmaWa9uPk .mbr-text {
+  text-align: left;
+}
+.cid-ufmaWa9uPk .mbr-section-title {
+  text-align: left;
+}
 .cid-ufmaWayjEI {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -9728,6 +9734,9 @@ a {
   padding-top: 1rem;
   padding-bottom: 1rem;
   background-color: #ffffff;
+}
+.cid-ufmaWbgzfo .mbr-text {
+  text-align: left;
 }
 .cid-ufmaWaSY0m {
   padding-top: 1rem;
