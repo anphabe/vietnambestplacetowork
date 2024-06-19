@@ -1094,6 +1094,16 @@ a {
 .cid-tsNOgfMKJY .md-headline {
   font-size: 3.2rem;
 }
+@media (max-width: 450px) {
+  .cid-tsNOgfMKJY .md-headline {
+    font-size: 2.3rem!important;
+  }
+}
+@media (max-width: 992px) {
+  .cid-tsNOgfMKJY .mdspace {
+    display: none;
+  }
+}
 .cid-tkJ4kJmM8r {
   padding-top: 2rem;
   padding-bottom: 0rem;
