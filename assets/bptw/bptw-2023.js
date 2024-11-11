@@ -143,15 +143,12 @@
     function rankingDisplayByJson2HTML(data) {
         $('.loading-data').hide();
 
-
-
-        // if 2023
-        
         let industry = $('#select_industry').val();
         
 
-       // console.log("debug", data, industry);
-        if($('#select_year').val() == 2023) {
+        console.log("debug", data, industry);
+        let year = parseInt($('#select_year').val(), 10);
+        if(year == 2023 || year == 2024) {
 
             if( ($('#award').val() == 'top100'  || $('#award').val() == 'top100sme' ) && !industry) {
 
@@ -163,13 +160,31 @@
                 let top20 = data.slice(10,20);
                 let top50 = data.slice(20,50);
                 let top100 = data.slice(50);
+
+                [top10, top20, top50, top100].forEach((arr, index) => {
+                    arr.forEach((item, idx) => {
+                        if (!item.sortname) {
+                            console.log(`Empty sortname in array ${index + 1} at position ${idx}`, item);
+                        }
+                    });
+                });
+
+                console.log(top100);
         
                 top1[0].logo_link = top1[0].logo_link.replace('rectMedium','rectLarge');
         
-                top10.sort(function(a,b) {return a.sortname.localeCompare(b.sortname);});
-                top20.sort(function(a,b) {return a.sortname.localeCompare(b.sortname);});
-                top50.sort(function(a,b) {return a.sortname.localeCompare(b.sortname);});
-                top100.sort(function(a,b) {return a.sortname.localeCompare(b.sortname);});
+                top10.sort(function(a, b) {
+                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                });
+                top20.sort(function(a, b) {
+                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                });
+                top50.sort(function(a, b) {
+                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                });
+                top100.sort(function(a, b) {
+                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                });
             // console.log(top10, a);
                 
                 $("#vnbptw-ranking-top1").empty().json2html({'companies':top1}, template.grid);
