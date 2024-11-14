@@ -155,11 +155,11 @@
                 $('.vnbptw-ranking-top').show();
                 $('.vnbptw-ranking-industry').hide();
 
-                let top1 = data.slice(0,1);
-                let top10 = data.slice(1,10);
-                let top20 = data.slice(10,20);
-                let top50 = data.slice(20,50);
-                let top100 = data.slice(50);
+                let top1 = data.slice(0,1).filter(item => item.showinranking !== 0);
+                let top10 = data.slice(1,10).filter(item => item.showinranking !== 0);
+                let top20 = data.slice(10,20).filter(item => item.showinranking !== 0);
+                let top50 = data.slice(20,50).filter(item => item.showinranking !== 0);
+                let top100 = data.slice(50).filter(item => item.showinranking !== 0);
 
                 [top10, top20, top50, top100].forEach((arr, index) => {
                     arr.forEach((item, idx) => {
