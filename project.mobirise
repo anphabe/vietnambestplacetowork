@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2024",
-    "currentPage": "index.html",
+    "currentPage": "top-100-noi-lam-viec-tot-nhat-viet-nam-2024-doanh-nghiep-vua.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -73,7 +73,7 @@
         "main": true,
         "title": "Nơi làm việc tốt nhất Việt Nam® | Anphabe",
         "meta_descr": "Giải thưởng môi trường làm việc danh giá nhất được tổ chức thường niên bởi Anphabe - Nhà tư vấn Tiên phong về Thương hiệu Nhà tuyển dụng & Môi trường làm việc Hạnh Phúc.",
-        "header_custom": "<meta property=\"og:image\" content=\"https://vietnambestplacestowork.com/assets/images/header-background.jpg\">",
+        "header_custom": "<meta name=\"image\" property=\"og:image\" content=\"https://vietnambestplacestowork.com/assets/images/header-background.jpg\">",
         "footer_custom": "",
         "html_before": "",
         "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/header-background.jpg"
@@ -29027,12 +29027,11 @@
       "settings": {
         "title": "Top 100 Nơi làm việc tốt nhất Việt Nam 2024 - Khối Doanh Nghiệp Lớn",
         "meta_descr": "Top 100 Nơi làm việc tốt nhất Việt Nam 2024 - Khối Doanh Nghiệp Lớn | Anphabe",
-        "header_custom": "",
+        "header_custom": "<meta name=\"image\" property=\"og:image\" content=\"https://vietnambestplacestowork.com/assets/images/top-100-noi-lam-viec-tot-nhat-viet-nam-2024-meta.jpeg\">",
         "footer_custom": "",
         "html_before": "",
         "order": "7",
-        "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/thumb-2024-large.jpeg"
+        "socialSharingUrl": ""
       },
       "components": [
         {
@@ -30209,12 +30208,11 @@
       "settings": {
         "title": "Top 100 Nơi làm việc tốt nhất Việt Nam 2024 - Khối Doanh Nghiệp Vừa",
         "meta_descr": "Top 100 Nơi làm việc tốt nhất Việt Nam 2024 - Khối Doanh Nghiệp Vừa | Anphabe",
-        "header_custom": "",
+        "header_custom": "<meta name=\"image\" property=\"og:image\" content=\"https://vietnambestplacestowork.com/assets/images/top-100-noi-lam-viec-tot-nhat-viet-nam-2024-doanh-nghiep-vua-meta.jpg\">",
         "footer_custom": "",
         "html_before": "",
         "order": "8",
-        "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2024-sme-700.png",
-        "meta_image": "@PROJECT_PATH@/assets/images/thumb-2024-medium.jpg"
+        "socialSharingUrl": "https://vietnambestplacestowork.com/assets/images/noi-lam-viec-tot-nhat-vietnam-2024-sme-700.png"
       },
       "components": [
         {
