@@ -141,12 +141,12 @@
     };
     
     function rankingDisplayByJson2HTML(data) {
+        // Filter out companies that are not in the ranking
+        data = data.filter(item => item.showinranking !== 0);
         $('.loading-data').hide();
 
         let industry = $('#select_industry').val();
         
-
-        console.log("debug", data, industry);
         let year = parseInt($('#select_year').val(), 10);
         if(year == 2023 || year == 2024) {
 
@@ -155,11 +155,11 @@
                 $('.vnbptw-ranking-top').show();
                 $('.vnbptw-ranking-industry').hide();
 
-                let top1 = data.slice(0,1).filter(item => item.showinranking !== 0);
-                let top10 = data.slice(1,10).filter(item => item.showinranking !== 0);
-                let top20 = data.slice(10,20).filter(item => item.showinranking !== 0);
-                let top50 = data.slice(20,50).filter(item => item.showinranking !== 0);
-                let top100 = data.slice(50).filter(item => item.showinranking !== 0);
+                let top1 = data.slice(0,1);
+                let top10 = data.slice(1,10);
+                let top20 = data.slice(10,20);
+                let top50 = data.slice(20,50);
+                let top100 = data.slice(50);
 
                 [top10, top20, top50, top100].forEach((arr, index) => {
                     arr.forEach((item, idx) => {
@@ -169,8 +169,6 @@
                     });
                 });
 
-                console.log(top100);
-        
                 top1[0].logo_link = top1[0].logo_link.replace('rectMedium','rectLarge');
         
                 top10.sort(function(a, b) {
