@@ -142,7 +142,7 @@
     
     function rankingDisplayByJson2HTML(data) {
         // Filter out companies that are not in the ranking
-        data = data.filter(item => item.showinranking !== 0);
+       // data = data.filter(item => item.showinranking !== 0);
         $('.loading-data').hide();
 
         let industry = $('#select_industry').val();
@@ -156,10 +156,12 @@
                 $('.vnbptw-ranking-industry').hide();
 
                 let top1 = data.slice(0,1);
-                let top10 = data.slice(1,9);
-                let top20 = data.slice(10,19);
-                let top50 = data.slice(20,49);
-                let top100 = data.slice(50);
+                
+                let top10 = data.slice(1,10).filter(item => item.showinranking !== 0);
+                let top20 = data.slice(10,20).filter(item => item.showinranking !== 0);
+                let top50 = data.slice(20,50).filter(item => item.showinranking !== 0);
+                let top100 = data.slice(50).filter(item => item.showinranking !== 0);
+                //console.log(top1, top10, top20, top50, top100);
 
                 [top10, top20, top50, top100].forEach((arr, index) => {
                     arr.forEach((item, idx) => {
