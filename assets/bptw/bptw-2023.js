@@ -1,3 +1,6 @@
+// For BPTW 2023 and later
+
+
 (function ($) {
     let apiURL = 'https://csbe.vietnambestplacestowork.com/api/export-company-award/{award}/{year}'
 
@@ -141,8 +144,7 @@
     };
     
     function rankingDisplayByJson2HTML(data) {
-        // Filter out companies that are not in the ranking
-       // data = data.filter(item => item.showinranking !== 0);
+       
         $('.loading-data').hide();
 
         let industry = $('#select_industry').val();
@@ -196,7 +198,8 @@
             else {
                 $('.vnbptw-ranking-top').hide();
                 $('.vnbptw-ranking-industry').show();
-               // data.sort(function(a,b) {return a.ranking.localeCompare(b.ranking,'en');});
+                // Filter out companies that are not in the ranking
+                data = data.filter(item => item.showinranking !== 0);
                 $("#vnbptw-ranking").empty().json2html({'companies':data}, template.grid);
             }
         }

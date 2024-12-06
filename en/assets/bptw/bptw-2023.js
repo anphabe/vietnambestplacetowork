@@ -1,9 +1,8 @@
+// For BPTW 2023 and later
+
+
 (function ($) {
     let apiURL = 'https://csbe.vietnambestplacestowork.com/api/export-company-award/{award}/{year}'
-
-    // Set the language variable based on the URL path
-    let path = window.location.pathname;
-    let lang = path.includes('/en/') ? 'en' : 'vi';
 
     let template = {
         "grid": {
@@ -54,11 +53,10 @@
                                         "<>": "h5",
                                         "class": "card-title fs-6 text-center",
                                         "html": function () {
-                                            let displayName = lang === 'en' ? this.name_en : this.name;
                                             if (this.portal_url.length > 0) {
-                                                return '<a class="text-black" href="' + this.portal_url + '"' + '>' + displayName + '</a>'
+                                                return '<a class="text-black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
                                             } else {
-                                                return displayName;
+                                                return this.name;
                                             }
                                         }
                                     },
@@ -130,11 +128,10 @@
                                 "<>": "h5",
                                 "class": "px-4 fs-6 text-center",
                                 "html": function () {
-                                    let displayName = lang === 'en' ? this.name_en : this.name;
                                     if (this.portal_url.length > 0) {
-                                        return '<a class="text-black" href="' + this.portal_url + '"' + '>' + displayName + '</a>'
+                                        return '<a class="text-black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
                                     } else {
-                                        return displayName;
+                                        return this.name;
                                     }
                                 }
                             },
@@ -147,8 +144,7 @@
     };
     
     function rankingDisplayByJson2HTML(data) {
-        // Filter out companies that are not in the ranking
-       // data = data.filter(item => item.showinranking !== 0);
+       
         $('.loading-data').hide();
 
         let industry = $('#select_industry').val();
@@ -202,7 +198,8 @@
             else {
                 $('.vnbptw-ranking-top').hide();
                 $('.vnbptw-ranking-industry').show();
-               // data.sort(function(a,b) {return a.ranking.localeCompare(b.ranking,'en');});
+                // Filter out companies that are not in the ranking
+                data = data.filter(item => item.showinranking !== 0);
                 $("#vnbptw-ranking").empty().json2html({'companies':data}, template.grid);
             }
         }
@@ -253,7 +250,7 @@
         return dataURL;
     }
 
-    function initialize() {
+    $(document).ready(function () {
         if($("#award").length > 0 && $("#select_year").length > 0) {
             getData(getDataURL());
 
@@ -266,10 +263,6 @@
                 window.location.href = page;
             });
         }
-    }
-
-    $(document).ready(function () {
-        initialize();
     });
 
     function remove_vn_character(input) {
