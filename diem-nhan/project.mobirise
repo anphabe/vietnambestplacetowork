@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2024",
-    "currentPage": "bat-mi-ve-van-hoa-moi-truong-lam-viec-hanh-phuc-tai-mcdonalds-viet-nam.html",
+    "currentPage": "bidv-khang-dinh-vi-the-doanh-nghiep-vnbptw-2024.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -49,12 +49,12 @@
     ],
     "witsec-jquery": "3.5.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon.png",
-    "mbrsiteDomain": "y3rqqsug6i",
+    "mbrsiteDomain": "emrnkha8mc",
     "imageResize": false,
     "robotsSwitcher": true,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": "https://vietnambestplacestowork.com/",
+    "siteUrl": "https://vietnambestplacestowork.com/diem-nhan/",
     "cookiesAlert": false,
     "gdpr": false,
     "witsec-white-label": true,
