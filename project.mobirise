@@ -66,9 +66,7 @@
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-NDHSN6W\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "usedWebp": false,
     "witsec-anphabe": false,
-    "witsec-language": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-language": false
   },
   "pages": {
     "index.html": {
@@ -783,7 +781,7 @@
                   ".item-content": {
                     "padding": "2rem",
                     "position": "absolute",
-                    "top": "230px"
+                    "top": "90px"
                   }
                 }
               },
