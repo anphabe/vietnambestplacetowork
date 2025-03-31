@@ -1087,8 +1087,8 @@ a {
 }
 .cid-uGYMFpPxvh .image-wrap img {
   width: 100%;
-  border-radius: 0.5rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 @media (min-width: 992px) {
   .cid-uGYMFpPxvh .image-wrap img {
@@ -1105,10 +1105,10 @@ a {
   color: #ffffff;
 }
 .cid-uGYMFpPxvh .mt-logo-sponsor {
-  margin-top: 9rem !important;
+  margin-top: 6rem !important;
 }
 .cid-uGYNsxB9LF {
-  padding-top: 1rem;
+  padding-top: 5rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
