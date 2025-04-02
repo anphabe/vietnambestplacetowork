@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Khảo sát dành cho người đi làm",
-    "currentPage": "index.html",
+    "currentPage": "thongtinquatang.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -85,7 +85,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Khảo sát dành cho người đi làm",
+        "title": "Bình Chọn Đâu là nơi làm việc tốt nhất Việt nam 2025",
         "meta_descr": "Chỉ 10 phút thực hiện khảo sát, bạn có thêm những kiến thức quan trọng về công việc và môi trường làm việc, đồng thời thúc đẩy các thay đổi cấp tiến để tạo nên môi trường làm việc hạnh phúc.",
         "header_custom": "<meta property=\"og:site_name\" content=\"Khảo sát dành cho người đi làm\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta name=\"author\" content=\"Anphabe\">\n<meta name=\"title\" property=\"og:title\" content=\"Khảo sát dành cho người đi làm\">\n<meta name=\"twitter:image:src\" content=\"https://vietnambestplacestowork.com/2025/assets/images/index2025.jpg\">\n<meta name=\"image\" property=\"og:image\" content=\"https://vietnambestplacestowork.com/2025/assets/images/index2025.jpg\">\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://vietnambestplacestowork.com/2025/assets/images/index2025.jpg\"/>\n<meta name=\"description\" property=\"og:description\" content=\"Chỉ 10 phút thực hiện khảo sát, bạn có thêm những kiến thức quan trọng về công việc và môi trường làm việc, đồng thời thúc đẩy các thay đổi cấp tiến để tạo nên môi trường làm việc hạnh phúc.\">",
         "footer_custom": "",
@@ -1416,7 +1416,7 @@
     "thongtinquatang.html": {
       "settings": {
         "title": "Thông tin quà tặng",
-        "meta_descr": "Chương trình RÚT THĂM MAY MẮN dành cho tất cả đáp viên hoàn tất khảo sát hợp lệ trong thời gian diễn ra chương trình khảo sát bình chọn NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2023.",
+        "meta_descr": "Chương trình RÚT THĂM MAY MẮN dành cho tất cả đáp viên hoàn tất khảo sát hợp lệ trong thời gian diễn ra chương trình khảo sát bình chọn NƠI LÀM VIỆC TỐT NHẤT VIỆT NAM 2025.",
         "header_custom": "<meta property=\"og:site_name\" content=\"Khảo sát dành cho người đi làm\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta name=\"author\" content=\"Anphabe\">\n<meta name=\"title\" property=\"og:title\" content=\"Khảo sát dành cho người đi làm\">\n<meta name=\"twitter:image:src\" content=\"https://vietnambestplacestowork.com/2025/assets/images/index2025.jpg\">\n<meta name=\"image\" property=\"og:image\" content=\"https://vietnambestplacestowork.com/2025/assets/images/index2025.jpg\">\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://vietnambestplacestowork.com/2025/assets/images/index2025.jpg\"/>\n<meta name=\"description\" property=\"og:description\" content=\"Chỉ 10 phút thực hiện khảo sát, bạn có thêm những kiến thức quan trọng về công việc và môi trường làm việc, đồng thời thúc đẩy các thay đổi cấp tiến để tạo nên môi trường làm việc hạnh phúc.\">",
         "footer_custom": "",
         "html_before": "",
