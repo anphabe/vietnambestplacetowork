@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Khảo sát dành cho người đi làm",
-    "currentPage": "index.html",
+    "currentPage": "thongtinquatang.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -2233,6 +2233,11 @@
             ".item-subtitle": {
               "text-align": "left",
               "color": "#232323"
+            },
+            "@media (max-width: 768px)": {
+              ".item-img, img": {
+                "height": "auto!important"
+              }
             }
           },
           "_name": "content1",

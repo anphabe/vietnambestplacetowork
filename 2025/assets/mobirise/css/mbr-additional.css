@@ -2157,6 +2157,12 @@ a {
   text-align: left;
   color: #232323;
 }
+@media (max-width: 768px) {
+  .cid-tDKmUoVn1k .item-img,
+  .cid-tDKmUoVn1k img {
+    height: auto!important;
+  }
+}
 .cid-tDKno9AI5b {
   padding-top: 0rem;
   padding-bottom: 4rem;
