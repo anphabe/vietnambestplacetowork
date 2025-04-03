@@ -73,13 +73,16 @@ if (
   document.addEventListener("DOMContentLoaded", keep_url_query);
 }
 </script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://tr.anphabe.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NDHSN6W');</script>
-<!-- End Google Tag Manager -->
+
+<script>
+    (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+        w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+        m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://mau2.anphabe-update.com/mtc.js','mt');
+
+    mt('send', 'pageview');
+</script>
+
 <meta name="facebook-domain-verification" content="mruh954gyrjd7ccca3i08dzmxmuksh" />
 
 <!-- PiwikTag Manager -->
