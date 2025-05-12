@@ -49,7 +49,7 @@
     ],
     "witsec-jquery": "3.5.1",
     "favicon": "@PROJECT_PATH@/assets/images/favicon.png",
-    "mbrsiteDomain": "tv7m50dqtc",
+    "mbrsiteDomain": "vp3cl3gnxh",
     "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
@@ -67,7 +67,9 @@
     "usedWebp": false,
     "witsec-anphabe": false,
     "witsec-language": false,
-    "witsec-mailform": false
+    "witsec-mailform": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
