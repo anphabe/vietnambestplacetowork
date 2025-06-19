@@ -1926,7 +1926,7 @@ a {
   font-weight: bold;
 }
 .cid-tCGmITTl4z {
-  background-image: url("../../../assets/images/20250609-163428.jpg");
+  background-image: url("../../../assets/images/banner-cover-gift.jpg");
   min-height: 66vh;
 }
 @media (max-width: 768px) {
@@ -1955,15 +1955,6 @@ a {
     padding-bottom: 1rem;
   }
 }
-.cid-tCH3vCJQfc a.text-primary:link,
-.cid-tCH3vCJQfc a.text-primary:visited,
-.cid-tCH3vCJQfc a.text-primary:actived {
-  color: #087096!important;
-}
-.cid-tCH3vCJQfc a.text-primary:hover {
-  color: #087096!important;
-  text-decoration: underline;
-}
 .cid-tCH3vCJQfc ol {
   font-weight: bold;
 }
@@ -1981,6 +1972,12 @@ a {
 }
 .cid-tCH3vCJQfc .list .mbr-text {
   color: #353535;
+}
+.cid-tCH3vCJQfc a.text-primary:link,
+.cid-tCH3vCJQfc a.text-primary:hover,
+.cid-tCH3vCJQfc a.text-primary:visited,
+.cid-tCH3vCJQfc a.text-primary:active {
+  color: #087096!important;
 }
 .cid-uMh2npQPgc {
   padding-top: 0rem;
@@ -2124,10 +2121,43 @@ a {
 .cid-tCGHgrWxPJ .row {
   flex-direction: row-reverse;
 }
+.cid-uOxs2wIGbg {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  background-color: #ffffff;
+}
+@media (max-width: 991px) {
+  .cid-uOxs2wIGbg .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-uOxs2wIGbg img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-uOxs2wIGbg .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-uOxs2wIGbg ul {
+  margin-left: 0;
+  padding-left: 17px;
+}
+@media (max-width: 768px) {
+  .cid-uOxs2wIGbg .text-wrapper {
+    margin-top: 2.5rem;
+  }
+}
+.cid-uOxs2wIGbg a.text-primary:link,
+.cid-uOxs2wIGbg a.text-primary:hover,
+.cid-uOxs2wIGbg a.text-primary:visited,
+.cid-uOxs2wIGbg a.text-primary:active {
+  color: #087096!important;
+}
 .cid-u9l4WK7HQk {
   padding-top: 4rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .cid-u9l4WK7HQk .mbr-section-subtitle {
   text-align: left;
@@ -2167,7 +2197,7 @@ a {
 .cid-tDKmUoVn1k {
   padding-top: 0rem;
   padding-bottom: 0rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .cid-tDKmUoVn1k img,
 .cid-tDKmUoVn1k .item-img {
@@ -2230,7 +2260,7 @@ a {
 .cid-tDKno9AI5b {
   padding-top: 0rem;
   padding-bottom: 4rem;
-  background-color: #ffffff;
+  background-color: #fafafa;
 }
 .cid-tDKno9AI5b .mbr-section-subtitle {
   text-align: left;
