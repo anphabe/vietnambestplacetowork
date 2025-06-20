@@ -2417,28 +2417,28 @@ a {
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-uNCqrqqRSi {
+.cid-uOCRNWQtVN {
   padding-top: 0rem;
   padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-uNCqrqqRSi img {
+.cid-uOCRNWQtVN img {
   width: 200px;
   margin: auto;
 }
-.cid-uNCqrqqRSi .card {
+.cid-uOCRNWQtVN .card {
   transition: all 0.3s;
   height: fit-content;
   padding: 1rem 0;
   margin-bottom: 1rem;
 }
 @media (min-width: 992px) {
-  .cid-uNCqrqqRSi .card {
+  .cid-uOCRNWQtVN .card {
     max-width: 100%;
   }
 }
 @media (max-width: 768px) {
-  .cid-uNCqrqqRSi .card {
+  .cid-uOCRNWQtVN .card {
     margin-bottom: 0;
     padding: 0;
   }
