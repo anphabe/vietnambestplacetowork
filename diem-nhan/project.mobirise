@@ -66,7 +66,9 @@
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-NDHSN6W\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->",
     "usedWebp": false,
     "witsec-anphabe": false,
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n"
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "bat-mi-ve-van-hoa-moi-truong-lam-viec-hanh-phuc-tai-mcdonalds-viet-nam.html": {
