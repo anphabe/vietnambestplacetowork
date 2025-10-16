@@ -2,12 +2,12 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Mulish', sans-serif;
-  font-size: 4.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.4rem;
   line-height: 1.1;
 }
 .display-1 > .mbr-iconfont {
-  font-size: 5.25rem;
+  font-size: 4.25rem;
 }
 .display-2 {
   font-family: 'Mulish', sans-serif;
@@ -48,14 +48,14 @@ body {
 /* 0.65 - min scale variable, may vary */
 @media (max-width: 992px) {
   .display-1 {
-    font-size: 3.36rem;
+    font-size: 2.72rem;
   }
 }
 @media (max-width: 768px) {
   .display-1 {
-    font-size: 2.94rem;
-    font-size: calc( 2.12rem + (4.2 - 2.12) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.1 * (2.12rem + (4.2 - 2.12) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 2.38rem;
+    font-size: calc( 1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.1 * (1.8399999999999999rem + (3.4 - 1.8399999999999999) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-2 {
     font-size: 2rem;
