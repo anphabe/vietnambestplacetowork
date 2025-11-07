@@ -12,70 +12,70 @@
         },
 
         "grid_items": {
-                "<>": "div", "class": "col ranking-item p-0 m-0 border-0", "html": [
-                    {
-                        "<>": "div", "class": "card h-100 bg-white mbr-text border border-0", "html": [
-                            {
-                                "<>": "div", "class": "card-body", "html": [
-                                    {
-                                        "<>": "div",
-                                        "style": "line-height: 1em; font-size: 16px; font-weight: 500; position: absolute;top: 0;left: 0;background: orange;padding: 10px;border-radius: 0.25rem 0 0 0;color: white;",
-                                        "class": function () {
-                                            if (this.ranking == 0) {
-                                                return "d-none";
-                                            } else {
-                                                return "ranking-position";
-                                            }
-                                        },
-                                        "html": "#${ranking}"
-                                    },
-                                    {
-                                        "<>": "a",
-                                        "href": function () {
-                                            if (this.portal_url.length > 0) {
-                                                return this.portal_url;
-                                            } else {
-                                                return "#";
-                                            }
-                                        },
-                                        "html": [
-                                            {
-                                                "<>": "img",
-                                                "src": "${logo_link}",
-                                                "class": "mx-auto d-block pt-2 pb-4",
-                                                "alt": "${name}",
-                                                "style": "width: initial",
-                                                "html": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "<>": "h5",
-                                        "class": "card-title fs-6 text-center",
-                                        "html": function () {
-                                            if (this.portal_url.length > 0) {
-                                                return '<a class="text-black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
-                                            } else {
-                                                return this.name;
-                                            }
+            "<>": "div", "class": "col ranking-item p-0 m-0 border-0", "html": [
+                {
+                    "<>": "div", "class": "card h-100 bg-white mbr-text border border-0", "html": [
+                        {
+                            "<>": "div", "class": "card-body", "html": [
+                                {
+                                    "<>": "div",
+                                    "style": "line-height: 1em; font-size: 16px; font-weight: 500; position: absolute;top: 0;left: 0;background: orange;padding: 10px;border-radius: 0.25rem 0 0 0;color: white;",
+                                    "class": function () {
+                                        if (this.ranking == 0) {
+                                            return "d-none";
+                                        } else {
+                                            return "ranking-position";
                                         }
                                     },
-                                    {
-                                        "<>": "p",
-                                        "class": "card-text text-dark display-7 d-none",
-                                        "html": function () {
-
-                                            if (this.description.length > 250) {
-                                                return this.description.substring(0, 250) + '...'
-                                            }
-                                            return this.description;
+                                    "html": "#${ranking}"
+                                },
+                                {
+                                    "<>": "a",
+                                    "href": function () {
+                                        if (this.portal_url.length > 0) {
+                                            return this.portal_url;
+                                        } else {
+                                            return "#";
+                                        }
+                                    },
+                                    "html": [
+                                        {
+                                            "<>": "img",
+                                            "src": "${logo_link}",
+                                            "class": "mx-auto d-block pt-2 pb-4",
+                                            "alt": "${name}",
+                                            "style": "width: initial",
+                                            "html": ""
+                                        }
+                                    ]
+                                },
+                                {
+                                    "<>": "h5",
+                                    "class": "card-title fs-6 text-center",
+                                    "html": function () {
+                                        if (this.portal_url.length > 0) {
+                                            return '<a class="text-black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
+                                        } else {
+                                            return this.name;
                                         }
                                     }
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                                },
+                                {
+                                    "<>": "p",
+                                    "class": "card-text text-dark display-7 d-none",
+                                    "html": function () {
+
+                                        if (this.description.length > 250) {
+                                            return this.description.substring(0, 250) + '...'
+                                        }
+                                        return this.description;
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
 
         },
         "list": {
@@ -85,85 +85,85 @@
         },
 
         "list_items": {
-            
-                "<>": "div", "class": "col ranking-item ", "html": [
-                    {
-                        "<>": "div", "class": "d-flex mbr-text text-center align-items-center  border-bottom p-2", "html": [
-                            
-                                
-                            {
-                                "<>": "div",
-                                "style": "width:80px; padding:12px 0; background: #d2e8f3",
-                                "class": function () {
-                                    if (this.ranking == 0) {
-                                        return "d-none";
-                                    } else {
-                                        return "ranking-position rank-num fs-4 text-success flex-shrink-0";
-                                    }
-                                },
-                                "html": "#${ranking}"
-                            },
-                            {
-                                "<>": "a",
-                                "class": "px-4",
-                                "href": function () {
-                                    if (this.portal_url.length > 0) {
-                                        return this.portal_url;
-                                    } else {
-                                        return "#";
-                                    }
-                                },
-                                "html": [
-                                    {
-                                        "<>": "img",
-                                        "src": "${logo_link}",
-                                        "class": "mx-auto d-block",
-                                        "alt": "${name}",
-                                        "style": "width: initial",
-                                        "html": ""
-                                    }
-                                ]
-                            },
-                            {
-                                "<>": "h5",
-                                "class": "px-4 fs-6 text-center",
-                                "html": function () {
-                                    if (this.portal_url.length > 0) {
-                                        return '<a class="text-black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
-                                    } else {
-                                        return this.name;
-                                    }
+
+            "<>": "div", "class": "col ranking-item ", "html": [
+                {
+                    "<>": "div", "class": "d-flex mbr-text text-center align-items-center  border-bottom p-2", "html": [
+
+
+                        {
+                            "<>": "div",
+                            "style": "width:80px; padding:12px 0; background: #d2e8f3",
+                            "class": function () {
+                                if (this.ranking == 0) {
+                                    return "d-none";
+                                } else {
+                                    return "ranking-position rank-num fs-4 text-success flex-shrink-0";
                                 }
                             },
-                        ]
-                    }
-                ]
-          
+                            "html": "#${ranking}"
+                        },
+                        {
+                            "<>": "a",
+                            "class": "px-4",
+                            "href": function () {
+                                if (this.portal_url.length > 0) {
+                                    return this.portal_url;
+                                } else {
+                                    return "#";
+                                }
+                            },
+                            "html": [
+                                {
+                                    "<>": "img",
+                                    "src": "${logo_link}",
+                                    "class": "mx-auto d-block",
+                                    "alt": "${name}",
+                                    "style": "width: initial",
+                                    "html": ""
+                                }
+                            ]
+                        },
+                        {
+                            "<>": "h5",
+                            "class": "px-4 fs-6 text-center",
+                            "html": function () {
+                                if (this.portal_url.length > 0) {
+                                    return '<a class="text-black" href="' + this.portal_url + '"' + '>' + this.name + '</a>'
+                                } else {
+                                    return this.name;
+                                }
+                            }
+                        },
+                    ]
+                }
+            ]
+
         },
-        
+
     };
-    
+
     function rankingDisplayByJson2HTML(data) {
-       
+
         $('.loading-data').hide();
 
         let industry = $('#select_industry').val();
-        
-        let year = parseInt($('#select_year').val(), 10);
-        if(year == 2023 || year == 2024) {
 
-            if( ($('#award').val() == 'top100'  || $('#award').val() == 'top100sme' ) && !industry) {
+        let year = parseInt($('#select_year').val(), 10);
+        if (year >= 2023) {
+
+            if (($('#award').val() == 'top100' || $('#award').val() == 'top100sme') && !industry) {
 
                 $('.vnbptw-ranking-top').show();
                 $('.vnbptw-ranking-industry').hide();
 
-                let top1 = data.slice(0,1);
-                
-                let top10 = data.slice(1,10).filter(item => item.showinranking !== 0);
-                let top20 = data.slice(10,20).filter(item => item.showinranking !== 0);
-                let top50 = data.slice(20,50).filter(item => item.showinranking !== 0);
+                let top1 = data.slice(0, 1);
+
+                let top10 = data.slice(1, 10).filter(item => item.showinranking !== 0);
+                let top20 = data.slice(10, 20).filter(item => item.showinranking !== 0);
+                let top50 = data.slice(20, 50).filter(item => item.showinranking !== 0);
                 let top100 = data.slice(50).filter(item => item.showinranking !== 0);
-                //console.log(top1, top10, top20, top50, top100);
+                // console.log(top1, top10, top20, top50, top100);
 
                 [top10, top20, top50, top100].forEach((arr, index) => {
                     arr.forEach((item, idx) => {
@@ -173,38 +173,38 @@
                     });
                 });
 
-                top1[0].logo_link = top1[0].logo_link.replace('rectMedium','rectLarge');
-        
-                top10.sort(function(a, b) {
+                top1[0].logo_link = top1[0].logo_link.replace('rectMedium', 'rectLarge');
+
+                top10.sort(function (a, b) {
                     return (a.sortname || a.name).localeCompare(b.sortname || b.name);
                 });
-                top20.sort(function(a, b) {
+                top20.sort(function (a, b) {
                     return (a.sortname || a.name).localeCompare(b.sortname || b.name);
                 });
-                top50.sort(function(a, b) {
+                top50.sort(function (a, b) {
                     return (a.sortname || a.name).localeCompare(b.sortname || b.name);
                 });
-                top100.sort(function(a, b) {
+                top100.sort(function (a, b) {
                     return (a.sortname || a.name).localeCompare(b.sortname || b.name);
                 });
-            // console.log(top10, a);
-                
-                $("#vnbptw-ranking-top1").empty().json2html({'companies':top1}, template.grid);
-                $("#vnbptw-ranking-top10").empty().json2html({'companies':top10}, template.grid);
-                $("#vnbptw-ranking-top20").empty().json2html({'companies':top20}, template.grid);
-                $("#vnbptw-ranking-top50").empty().json2html({'companies':top50}, template.grid);
-                $("#vnbptw-ranking-top100").empty().json2html({'companies':top100}, template.grid);
+                // console.log(top1);
+
+                $("#vnbptw-ranking-top1").empty().json2html({ 'companies': top1 }, template.grid);
+                $("#vnbptw-ranking-top10").empty().json2html({ 'companies': top10 }, template.grid);
+                $("#vnbptw-ranking-top20").empty().json2html({ 'companies': top20 }, template.grid);
+                $("#vnbptw-ranking-top50").empty().json2html({ 'companies': top50 }, template.grid);
+                $("#vnbptw-ranking-top100").empty().json2html({ 'companies': top100 }, template.grid);
             }
             else {
                 $('.vnbptw-ranking-top').hide();
                 $('.vnbptw-ranking-industry').show();
                 // Filter out companies that are not in the ranking
                 data = data.filter(item => item.showinranking !== 0);
-                $("#vnbptw-ranking").empty().json2html({'companies':data}, template.grid);
+                $("#vnbptw-ranking").empty().json2html({ 'companies': data }, template.grid);
             }
         }
         else {
-            $("#vnbptw-ranking").empty().json2html({'companies':data}, template.grid);
+            $("#vnbptw-ranking").empty().json2html({ 'companies': data }, template.grid);
         }
 
         $("#ranking-filter").on("keyup", function () {
@@ -216,16 +216,16 @@
         });
         $('#bptw-view-grid').click(function () {
             $("#ranking-filter").val("");
-            $("#vnbptw-ranking").empty().json2html({'companies':data}, template.grid);
+            $("#vnbptw-ranking").empty().json2html({ 'companies': data }, template.grid);
         })
         $('#bptw-view-table').click(function () {
             $("#ranking-filter").val("");
-            $("#vnbptw-ranking").empty().json2html({'companies':data}, template.list);
+            $("#vnbptw-ranking").empty().json2html({ 'companies': data }, template.list);
         })
     }
     function getData(url) {
         $.get(url, function (data, status) {
-            
+
             rankingDisplayByJson2HTML(data);
 
             if (window.location.pathname.includes('top10-haw')) {
@@ -237,11 +237,11 @@
         let award = $('#award').val();
         let year = $('#select_year').val();
         let url = new URL(window.location.href);
-            
+
         let industry = $('#select_industry').val();
         let dataURL = apiURL.replace('{year}', year);
         if (industry) {
-            dataURL = dataURL.replace('{award}', industry)    
+            dataURL = dataURL.replace('{award}', industry)
         }
         else {
             dataURL = dataURL.replace('{award}', award);
@@ -251,7 +251,7 @@
     }
 
     $(document).ready(function () {
-        if($("#award").length > 0 && $("#select_year").length > 0) {
+        if ($("#award").length > 0 && $("#select_year").length > 0) {
             getData(getDataURL());
 
             $("#select_industry").change(function () {
