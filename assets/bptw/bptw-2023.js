@@ -200,6 +200,9 @@
                 $('.vnbptw-ranking-industry').show();
                 // Filter out companies that are not in the ranking
                 data = data.filter(item => item.showinranking !== 0);
+                data.sort(function (a, b) {
+                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                });
                 $("#vnbptw-ranking").empty().json2html({ 'companies': data }, template.grid);
             }
         }
