@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2025",
-    "currentPage": "top-100-noi-lam-viec-tot-nhat-viet-nam-2025.html",
+    "currentPage": "top-100-noi-lam-viec-tot-nhat-viet-nam-2023-doanh-nghiep-vua.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -18126,6 +18126,9 @@
             },
             ".ranking-item:nth-child(even) .card": {
               "background-color": "#ededed !important"
+            },
+            ".ranking-position": {
+              "display": "none"
             }
           },
           "_name": "content4",
@@ -19307,6 +19310,9 @@
             },
             ".ranking-item:nth-child(even) .card": {
               "background-color": "#ededed !important"
+            },
+            ".ranking-position": {
+              "display": "none"
             }
           },
           "_name": "content4",
@@ -29393,6 +29399,9 @@
             },
             ".ranking-item:nth-child(even) .card": {
               "background-color": "#ededed !important"
+            },
+            ".ranking-position": {
+              "display": "none"
             }
           },
           "_name": "content4",
@@ -30574,6 +30583,9 @@
             },
             ".ranking-item:nth-child(even) .card": {
               "background-color": "#ededed !important"
+            },
+            ".ranking-position": {
+              "display": "none"
             }
           },
           "_name": "content4",
@@ -30900,8 +30912,7 @@
         "footer_custom": "",
         "html_before": "",
         "order": "9",
-        "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/logo-top-100-enterprise-large-2026.png"
+        "socialSharingUrl": ""
       },
       "components": [
         {
@@ -31756,6 +31767,9 @@
             },
             ".ranking-item:nth-child(even) .card": {
               "background-color": "#ededed !important"
+            },
+            ".ranking-position": {
+              "display": "none"
             }
           },
           "_name": "content4",
@@ -32082,8 +32096,7 @@
         "footer_custom": "",
         "html_before": "",
         "order": "10",
-        "socialSharingUrl": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/logo-top-100-enterprise-medium-2026.png"
+        "socialSharingUrl": ""
       },
       "components": [
         {
@@ -32938,6 +32951,9 @@
             },
             ".ranking-item:nth-child(even) .card": {
               "background-color": "#ededed !important"
+            },
+            ".ranking-position": {
+              "display": "none"
             }
           },
           "_name": "content4",
