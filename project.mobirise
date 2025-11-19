@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VNBPTW2025",
-    "currentPage": "top-100-noi-lam-viec-tot-nhat-viet-nam-2025-doanh-nghiep-vua.html",
+    "currentPage": "doanh-nghiep-co-nguon-nhan-luc-hanh-phuc-2025.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -32098,7 +32098,8 @@
         "footer_custom": "",
         "html_before": "",
         "order": "10",
-        "socialSharingUrl": ""
+        "socialSharingUrl": "",
+        "meta_image": "@PROJECT_PATH@/assets/images/logo-top-100-enterprise-medium-2026.png"
       },
       "components": [
         {
