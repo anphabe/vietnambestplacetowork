@@ -151,58 +151,70 @@
 
         let year = parseInt($('#select_year').val(), 10);
         if (year >= 2023) {
+            
 
-            if (($('#award').val() == 'top100' || $('#award').val() == 'top100sme') && !industry) {
+            if (($('#award').val() == 'top100' || $('#award').val() == 'top100sme')) {
+                if(!industry) {
+                    $('.vnbptw-ranking-top').show();
+                    $('.vnbptw-ranking-industry').hide();
 
-                $('.vnbptw-ranking-top').show();
-                $('.vnbptw-ranking-industry').hide();
+                    let top1 = data.slice(0, 1);
 
-                let top1 = data.slice(0, 1);
+                    let top10 = data.slice(1, 10).filter(item => item.showinranking !== 0);
+                    let top20 = data.slice(10, 20).filter(item => item.showinranking !== 0);
+                    let top50 = data.slice(20, 50).filter(item => item.showinranking !== 0);
+                    let top100 = data.slice(50).filter(item => item.showinranking !== 0);
+                    // console.log(top1, top10, top20, top50, top100);
 
-                let top10 = data.slice(1, 10).filter(item => item.showinranking !== 0);
-                let top20 = data.slice(10, 20).filter(item => item.showinranking !== 0);
-                let top50 = data.slice(20, 50).filter(item => item.showinranking !== 0);
-                let top100 = data.slice(50).filter(item => item.showinranking !== 0);
-                // console.log(top1, top10, top20, top50, top100);
-
-                [top10, top20, top50, top100].forEach((arr, index) => {
-                    arr.forEach((item, idx) => {
-                        if (!item.sortname) {
-                            console.log(`Empty sortname in array ${index + 1} at position ${idx}`, item);
-                        }
+                    [top10, top20, top50, top100].forEach((arr, index) => {
+                        arr.forEach((item, idx) => {
+                            if (!item.sortname) {
+                                console.log(`Empty sortname in array ${index + 1} at position ${idx}`, item);
+                            }
+                        });
                     });
-                });
 
-                top1[0].logo_link = top1[0].logo_link.replace('rectMedium', 'rectLarge');
+                    top1[0].logo_link = top1[0].logo_link.replace('rectMedium', 'rectLarge');
 
-                top10.sort(function (a, b) {
-                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
-                });
-                top20.sort(function (a, b) {
-                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
-                });
-                top50.sort(function (a, b) {
-                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
-                });
-                top100.sort(function (a, b) {
-                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
-                });
-                // console.log(top1);
+                    top10.sort(function (a, b) {
+                        return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                    });
+                    top20.sort(function (a, b) {
+                        return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                    });
+                    top50.sort(function (a, b) {
+                        return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                    });
+                    top100.sort(function (a, b) {
+                        return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                    });
+                    // console.log(top1);
 
-                $("#vnbptw-ranking-top1").empty().json2html({ 'companies': top1 }, template.grid);
-                $("#vnbptw-ranking-top10").empty().json2html({ 'companies': top10 }, template.grid);
-                $("#vnbptw-ranking-top20").empty().json2html({ 'companies': top20 }, template.grid);
-                $("#vnbptw-ranking-top50").empty().json2html({ 'companies': top50 }, template.grid);
-                $("#vnbptw-ranking-top100").empty().json2html({ 'companies': top100 }, template.grid);
+                    $("#vnbptw-ranking-top1").empty().json2html({ 'companies': top1 }, template.grid);
+                    $("#vnbptw-ranking-top10").empty().json2html({ 'companies': top10 }, template.grid);
+                    $("#vnbptw-ranking-top20").empty().json2html({ 'companies': top20 }, template.grid);
+                    $("#vnbptw-ranking-top50").empty().json2html({ 'companies': top50 }, template.grid);
+                    $("#vnbptw-ranking-top100").empty().json2html({ 'companies': top100 }, template.grid);
+                }
+                else {
+                    $('.vnbptw-ranking-top').hide();
+                    $('.vnbptw-ranking-industry').show();
+                    // Filter out companies that are not in the ranking
+                    data = data.filter(item => item.showinranking !== 0);
+                    $("#vnbptw-ranking").empty().json2html({ 'companies': data }, template.grid);
+                } 
             }
             else {
                 $('.vnbptw-ranking-top').hide();
-                $('.vnbptw-ranking-industry').show();
+                $('.vnbptw-ranking-industry').hide();
                 // Filter out companies that are not in the ranking
                 data = data.filter(item => item.showinranking !== 0);
-
+                data.sort(function (a, b) {
+                    return (a.sortname || a.name).localeCompare(b.sortname || b.name);
+                });
                 $("#vnbptw-ranking").empty().json2html({ 'companies': data }, template.grid);
             }
+            
         }
         else {
             $("#vnbptw-ranking").empty().json2html({ 'companies': data }, template.grid);
